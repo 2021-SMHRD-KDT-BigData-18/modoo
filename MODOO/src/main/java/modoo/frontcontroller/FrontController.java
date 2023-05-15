@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import modoo.controller.Controller;
 import modoo.controller.GoModooCon;
 
-@WebServlet("*")
+@WebServlet("modoo")
 public class FrontController extends HttpServlet {
 	HashMap<String, Controller> mappings;
 

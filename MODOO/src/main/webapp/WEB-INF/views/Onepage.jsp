@@ -240,7 +240,7 @@
                 container.find('.search-input').val('');
             }
         }
-
+	
     </script>
 
     <div class="search-wrapper">
@@ -250,8 +250,6 @@
         </div>
         <span class="close" onclick="searchToggle(this, event);"></span>
     </div>
-
-
 
 </body>
 
