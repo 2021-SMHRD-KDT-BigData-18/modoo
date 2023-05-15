@@ -233,7 +233,6 @@ center
 </head>
 
 <body>
-	<script src="./jquery-3.6.4.min.js"></script>
 
 	<div class="moving"></div>
 
