@@ -15,4 +15,5 @@ public class GoModooCon implements Controller {
 		return "Frontpage";
 	}
 
+	
 }
