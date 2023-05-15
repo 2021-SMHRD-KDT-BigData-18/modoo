@@ -22,7 +22,7 @@ public class FrontController extends HttpServlet {
 
 		mappings = new HashMap<String, Controller>();
 		
-		mappings.put("/goModoo", new GoModooCon());
+		mappings.put("/goModoo.com", new GoModooCon());
 		
 		
 		
