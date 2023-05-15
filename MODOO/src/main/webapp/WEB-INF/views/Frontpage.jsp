@@ -200,10 +200,10 @@
         .moving{
             width: 100%;
             height: 500px;
-            background: url(/JS/img/pngtree-civilization-ride-subway-illustration-background-sceneillustration-image_86626.jpg) 0 / 500px repeat-x;
+            background: url(/img/sub.jpg) 0 / 500px repeat-x;
             animation: movebg 5s linear infinite;
             position:absolute;
-            top: 58%;
+            top: 60%;
             /* bottom: 0;
             right: auto; */
             opacity: 0.4;
@@ -216,7 +216,8 @@
     </style>
 </head>
 
-<body>
+<body style="overflow: hidden;">
+
     <script src="./jquery-3.6.4.min.js"></script>
 
     <div class="moving"></div>
@@ -241,7 +242,7 @@
             }
         }
 
-    </script> 
+    </script>
 
     <div class="search-wrapper">
         <div class="input-holder">
