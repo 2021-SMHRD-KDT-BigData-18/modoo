@@ -241,7 +241,7 @@
             }
         }
 
-    </script>
+    </script> 
 
     <div class="search-wrapper">
         <div class="input-holder">
