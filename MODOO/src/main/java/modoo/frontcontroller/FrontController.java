@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import modoo.controller.Controller;
+import modoo.controller.GoModooCon;
 
 @WebServlet("*")
 public class FrontController extends HttpServlet {
@@ -21,6 +22,7 @@ public class FrontController extends HttpServlet {
 
 		mappings = new HashMap<String, Controller>();
 		
+		mappings.put("/goModoo", new GoModooCon());
 		
 		
 		
@@ -44,6 +46,7 @@ public class FrontController extends HttpServlet {
 
 		Controller con = null;
 		con = mappings.get(command);
+		
 //===========================================================
 		if (con != null) {
 			nextView = con.execute(request, response);
