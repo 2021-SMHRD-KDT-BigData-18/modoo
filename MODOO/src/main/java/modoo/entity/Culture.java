@@ -15,6 +15,21 @@ public class Culture {
 	private String Sub_name;
 	private int Cul_pop;
 	
+	/*
+데이터 베이스 컬럼
+1	공연장 번호		cul_num
+2	공연장 이름		cul_name
+3	공연장 주소		cul_addr
+4	공연장 홈페이지	cul_home
+5	공연장 사진		cul_pic
+6	공연장 전화번호	cul_tel
+7	인접 지하철		cul_sub
+8	공연1			show1
+9	공연2			show2
+10	공연3			show3
+11	공연장 관객 수 	cul_pop
+	 */
+	
 	public Culture() {}
 
 	public int getCul_num() {
