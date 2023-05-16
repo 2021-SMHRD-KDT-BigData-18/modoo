@@ -5,6 +5,7 @@ public class Culture {
 	// 변수명 == 테이블 컬럼명
 	private int Cul_num;
 	private String Cul_name;
+	private String Cul_addr;
 	private int Cul_home;
 	private String Cul_pic;
 	private String Cul_tel;
@@ -30,6 +31,14 @@ public class Culture {
 
 	public void setCul_name(String cul_name) {
 		Cul_name = cul_name;
+	}
+
+	public String getCul_addr() {
+		return Cul_addr;
+	}
+
+	public void setCul_addr(String cul_addr) {
+		Cul_addr = cul_addr;
 	}
 
 	public int getCul_home() {
@@ -95,7 +104,6 @@ public class Culture {
 	public void setCul_pop(int cul_pop) {
 		Cul_pop = cul_pop;
 	}
-	
 	
 	
 	
