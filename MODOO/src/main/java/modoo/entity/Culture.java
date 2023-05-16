@@ -9,10 +9,10 @@ public class Culture {
 	private int Cul_home;
 	private String Cul_pic;
 	private String Cul_tel;
+	private String Cul_sub;
 	private String Cul_show1;
 	private String Cul_show2;
 	private String Cul_show3;
-	private String Sub_name;
 	private int Cul_pop;
 	
 	/*
@@ -80,6 +80,14 @@ public class Culture {
 		Cul_tel = cul_tel;
 	}
 
+	public String getCul_sub() {
+		return Cul_sub;
+	}
+
+	public void setCul_sub(String cul_sub) {
+		Cul_sub = cul_sub;
+	}
+
 	public String getCul_show1() {
 		return Cul_show1;
 	}
@@ -104,14 +112,6 @@ public class Culture {
 		Cul_show3 = cul_show3;
 	}
 
-	public String getSub_name() {
-		return Sub_name;
-	}
-
-	public void setSub_name(String sub_name) {
-		Sub_name = sub_name;
-	}
-
 	public int getCul_pop() {
 		return Cul_pop;
 	}
@@ -119,8 +119,7 @@ public class Culture {
 	public void setCul_pop(int cul_pop) {
 		Cul_pop = cul_pop;
 	}
-	
-	
+
 	
 	
 }
