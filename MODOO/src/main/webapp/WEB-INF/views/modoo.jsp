@@ -8,60 +8,7 @@
 <link rel="stylesheet" href="css/modoo.css" />
 </head>
 <body style="overflow: hidden;">
-	<div class="container">
-		<h1>modoo</h1>
-
-		<div class="box1"><script
-		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
-	<div class="chart-div">
-		<canvas id="pieChartCanvas" width="380px" height="400px"></canvas>
-	</div>
-	<script>
-		window.onload = function() {
-			pieChartDraw();
-		}
-
-		let pieChartData = {
-			labels : [ '종로구', '중구', '용산구', '성동구', '광진구', '동대문구', '중랑구', '성북구',
-					'강북구', '도봉구', '노원구', '은평구', '서대문구', '마포구', '양천구', '강서구',
-					'구로구', '금천구', '영등포구', '동작구', '관악구', '서초구', '강남구', '송파구',
-					'강동구' ],
-			datasets : [ {
-				data : [ 158, 21, 8, 6, 14, 3, 1, 11, 2, 4, 2, 1, 7, 29, 4, 2,
-						8, 2, 1, 2, 18, 4, 23, 8, 4 ],
-				backgroundColor : [ 'rgb(31, 119, 180,0.6)',
-						'rgb(255, 127, 14,0.6)', 'rgb(44, 160, 44,0.6)',
-						'rgb(214, 39, 40,0.6)', 'rgb(148, 103, 189,0.6)',
-						'rgb(140, 86, 75,0.6)', 'rgb(227, 119, 194,0.6)',
-						'rgb(127, 127, 127,0.6)', 'rgb(188, 189, 34,0.6)',
-						'rgb(23, 190, 207,0.6)', 'rgb(174, 199, 232)',
-						'rgb(255, 187, 120)', 'rgb(152, 223, 138)',
-						'rgb(255, 152, 150)', 'rgb(197, 176, 213)',
-						'rgb(196, 156, 148)', 'rgb(247, 182, 210)',
-						'rgb(199, 199, 199)', 'rgb(219, 219, 141)',
-						'rgb(158, 218, 229)', 'rgb(203, 213, 232)',
-						'rgb(255, 217, 130)', 'rgb(207, 231, 165)',
-						'rgb(255, 177, 173)', 'rgb(234, 197, 194)' ]
-			} ]
-		};
-
-		let pieChartDraw = function() {
-			let ctx = document.getElementById('pieChartCanvas')
-					.getContext('2d');
-
-			window.pieChart = new Chart(ctx, {
-				type : 'pie',
-				data : pieChartData,
-				options : {
-					responsive : false
-				}
-			});
-		};
-	</script></div>
-		<div class="box2"><canvas id="cul_chart2" width="380px" height="400px"></canvas>
-	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<h1>modoo</h1>
 
 	<script>
 		const cul_chart2 = document.getElementById('cul_chart2');
