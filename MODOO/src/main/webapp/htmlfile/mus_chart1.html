@@ -3,8 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript"
+	src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	google.charts.load('current', {
+		'packages' : [ 'corechart' ]
+	});
+	google.charts.setOnLoadCallback(drawChart);
+
+	function drawChart() {
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Topping');
+		data.addColumn('number', 'Slices');
+		data.addRows([ [ '종로구', 37 ], [ '중구', 17 ], [ '용산구', 7 ], [ '성동구', 3 ],
+				[ '광진구', 3 ], [ '동대문구', 5 ], [ '중랑구', 0 ], [ '성북구', 9 ],
+				[ '강북구', 3 ], [ '도봉구', 2 ], [ '노원구', 4 ], [ '은평구', 2 ],
+				[ '서대문구', 7 ], [ '마포구', 5 ], [ '양천구', 0 ], [ '강서구', 2 ],
+				[ '구로구', 1 ], [ '금천구', 0 ], [ '영등포구', 2 ], [ '동작구', 1 ],
+				[ '관악구', 2 ], [ '서초구', 6 ], [ '강남구', 8 ], [ '송파구', 5 ],
+				[ '강동구', 1 ] ]);
+
+		var options = {
+			'title' : '구별 박물관 분포',
+			'width' : 500,
+			'height' : 400
+		};
+
+		var chart = new google.visualization.PieChart(document
+				.getElementById('chart_div'));
+		chart.draw(data, options);
+	}
+</script>
 </head>
 <body>
-
+	<div id="chart_div"></div>
 </body>
 </html>
