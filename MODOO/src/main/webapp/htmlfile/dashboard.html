@@ -2,346 +2,203 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<style>
-@font-face {
-	font-family: 'TAEBAEKmilkyway';
-	src:
-		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2')
-		format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @font-face {
+      font-family: 'TAEBAEKmilkyway';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
 
-body {
-	font-family: 'TAEBAEKmilkyway';
-	/* background-color: rgb(3, 0, 39); */
-	background-image: url('/img/background.jpg');  /* 수정 필요 *//* 수정 필요 *//* 수정 필요 */
-	background-repeat: no-repeat;
-	background-size: cover;
-	transition-duration: 3s;
-	/* justify-content : space-between; */
-}
 
-h1 {
-	text-align: center;
-	margin-top: 0;
-	font-size: 80px;
-	color: rgb(0, 0, 0, 0);
-	/* text-shadow: -7px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255); */
-	-webkit-text-stroke: 3px rgb(255, 255, 255);
-}
 
-.box1 {
-	position: absolute;
-	top: 20px;
-	right: 76%;
-	min-height: 400px;
-	width: 380px;
-	/* padding: 10px; */
-	background: rgb(0, 0, 0, 0);
-	overflow: hidden;
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-}
 
-.box2 {
-	position: absolute;
-	top: 20px;
-	left: 76%;
-	min-height: 400px;
-	width: 380px;
-	/* padding: 10px; */
-	background: rgb(0, 0, 0, 0);
-	overflow: hidden;
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-}
+    body {
+      font-family: 'TAEBAEKmilkyway';
+      background-image: url(img/aKakaoTalk_20230518_171521149.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition-duration: 3s;
+    }
 
-.box3 {
-	position: absolute;
-	top: 450px;
-	right: 76%;
-	min-height: 400px;
-	width: 380px;
-	/* padding: 10px; */
-	background: rgb(0, 0, 0, 0);
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-	overflow: hidden;
-}
+    .container{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
 
-.box4 {
-	position: absolute;
-	top: 450px;
-	left: 76%;
-	min-height: 400px;
-	width: 380px;
-	background: rgb(0, 0, 0, 0);
-	overflow: hidden;
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-}
+    h1 {
+      text-align: center;
+      margin-top: 0;
+      font-size: 80px;
+      color: rgb(0, 0, 0, 0);
+      -webkit-text-stroke: 3px rgb(255, 255, 255);
+    }
 
-.box5 {
-	position: absolute;
-	/* justify-content: center; */
-	top: 250px;
-	left: 27%;
-	height: 600px;
-	width: 800px;
-	background: rgb(0, 0, 0, 0);
-	overflow: hidden;
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	
-	/* 호선 별 이미지 변경 ******************************** */
-	background-image: url("/img/1호선.jpg");
-}
 
-nav1 {
-	position: absolute;
-	top: 150px;
-	right: 55%;
-	width: 200px;
-	background: rgba(0, 0, 0, 0);
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-	/* border-color: rgb(0, 0, 0, 0); */
-	display: flex;
-	justify-content: center;
-	/* border-radius: 25%;
-      box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.11); */
-}
 
-nav {
-	position: absolute;
-	top: -1px;
-	right: -200%;
-	width: 200px;
-	background: rgb(0, 0, 0, 0);
-	border: solid;
-	border-width: thin;
-	border-color: rgb(255, 255, 255);
-	display: flex;
-	justify-content: center;
-}
 
-ul, li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
+    .box1 {
+      position: absolute;
+      top: 20px;
+      right: 76%;
+      min-height: 400px;
+      width: 380px;
+  
+      background: rgb(0, 0, 0, 0);
+      overflow: hidden;
+      border: solid;
+      border-width: thin;
+      border-color: rgb(255, 255, 255);
 
-/* ///////////////////////////////////// */
-#one-menu>li>a {
-	font-size: 1.1rem;
-	color: rgba(255, 255, 255, 0.85);
-	text-align: center;
-	text-decoration: none;
-	letter-spacing: 0.05em;
-	display: block;
-	padding: 16px 80px;
-	border-right: 1px solid rgba(0, 0, 0, 0);
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-	-webkit-text-stroke: 1px rgb(255, 255, 255);
-}
+    }
 
-#onesub-menu {
-	position: absolute;
-	background: rgb(252, 252, 250);
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.15s ease-in;
-}
+    .box2 {
+      position: absolute;
+      top: 20px;
+      left: 76%;
+      min-height: 400px;
+      width: 380px;
 
-#onesub-menu>li {
-	text-align: center;
-	padding: 5px 0px;
-	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-}
+      background: rgb(0, 0, 0, 0);
+      overflow: hidden;
+      border: solid;
+      border-width: thin;
+      border-color: rgb(255, 255, 255);
+    }
 
-#onesub-menu>li>a {
-	color: rgb(3, 0, 39);
-	text-decoration: none;
-}
+    .box3 {
+      position: absolute;
+      top: 450px;
+      right: 76%;
+      min-height: 400px;
+      width: 380px;
 
-#one-menu>li:hover #onesub-menu {
-	opacity: 1;
-	visibility: visible;
-}
+      background: rgb(0, 0, 0, 0);
+      border: solid;
+      border-width: thin;
+      border-color: rgb(255, 255, 255);
+      overflow: hidden;
+    }
 
-#onesub-menu>li>a:hover {
-	text-decoration: underline;
-}
+    .box4 {
+      position: absolute;
+      top: 450px;
+      left: 76%;
+      min-height: 400px;
+      width: 380px;
+      background: rgb(0, 0, 0, 0);
+      overflow: hidden;
+      border: solid;
+      border-width: thin;
+      border-color: rgb(255, 255, 255);
+    }
 
-/* /////////////////////////////////////////////////////////////////////// */
-#main-menu>li>a {
-	font-size: 1.1rem;
-	color: rgba(255, 255, 255, 0.85);
-	text-align: center;
-	text-decoration: none;
-	letter-spacing: 0.05em;
-	display: block;
-	padding: 16px 36px;
-	border-right: 1px solid rgba(0, 0, 0, 0);
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-	-webkit-text-stroke: 1px rgb(255, 255, 255);
-}
+    .box5 {
+      position: absolute;
+      /* justify-content: center; */
+      top: 250px;
+      left: 27%;
+      height: 600px;
+      width: 800px;
+      background: rgb(0, 0, 0, 0);
+      overflow: hidden;
+      border: solid;
+      border-width: thin;
+      border-color: rgb(255, 255, 255);
+      background-image: url(img/1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
 
-#sub-menu {
-	position: absolute;
-	background: rgb(252, 252, 250);
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.15s ease-in;
-	right: 0%;
-}
+    nav1 {
+      position: absolute;
+      top: 150px;
+      right: 60%;
+      width: 200px;
+      background: rgba(0,0,0,0);
+      border: solid;
+      border-width: thin;
+      border-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
 
-#sub-menu>li {
-	text-align: center;
-	padding: 5px 50px;
-	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-}
+    }
 
-#sub-menu>li>a {
-	color: rgb(3, 0, 39);
-	text-decoration: none;
-}
+  
 
-#main-menu>li:hover #sub-menu {
-	opacity: 1;
-	visibility: visible;
-}
-
-#sub-menu>li>a:hover {
-	text-decoration: underline;
-}
-
-/* ////////////////////////////search */
-.search1 {
-	position: absolute;
-	top: 550px;
-	left: 405%;
-	width: 200px;
-}
-
-.search1>input {
-	width: 110%;
-	border: 1px solid #bbb;
-	border-radius: 8px;
-	padding: 10px 12px;
-	font-size: 14px;
-}
-
-.search1>img {
-	position: absolute;
-	width: 20px;
-	top: 10px;
-	left: 105%;
-	margin: 0;
-}
-
-/* ////////////////////// */
-.search2 {
-	position: absolute;
-	top: 600px;
-	left: 405%;
-	width: 200px;
-}
-
-.search2>input {
-	width: 110%;
-	border: 1px solid #bbb;
-	border-radius: 8px;
-	padding: 10px 12px;
-	font-size: 14px;
-}
-
-.search2>img {
-	position: absolute;
-	width: 20px;
-	top: 10px;
-	left: 105%;
-	margin: 0;
-}
-
-/* ////////////////////// */
-</style>
+    
+    </style>
 
 
 
 </head>
 
-<body style="overflow: hidden;">
-	<h1>modoo</h1>
+<body style="overflow: hidden;" >
+  <div class="container">
+  <h1>modoo</h1>
+
+  <div class="box1">box1
+  </div>
+  <div class="box2">box2
+  </div>
+  <div class="box3">box3
+  </div>
+  <div class="box4">box4
+  </div>
+  <div class="box5">
+  </div>
+  
 
 
-	<div class="box1">box1</div>
-	<div class="box2">box2</div>
-	<div class="box3">box3</div>
-	<div class="box4">box4</div>
-	<div class="box5"></div>
 
-	<nav1 role="navigation">
-	<ul id="one-menu" style="height: 50px;">
-		<li><a href="#">장소</a>
-			<ul id="onesub-menu"
-				style="height: 95px; width: 200px; overflow-y: scroll;">
-				<li><a href="#" aria-label="onesubemnu">공연장</a></li>
-				<li><a href="#" aria-label="onesubemnu">전시회</a></li>
-				<li><a href="#" aria-label="onesubemnu">박물관</a></li>
-			</ul></li>
-	</ul>
-	</nav>
+  <form action='palce'>
+    <input id="p1" type='button' value='공연장'/>
+    <input id="p2" type='button' value='전시회'/>
+    <input id="p3" type='button' value='박물관'/>
+  </form>
+  
+  
+  
+  
+  
+  <form action='route'>
+    <input id="r1" type='button' value='1호선'/>
+    <input id="r2" type='button' value='2호선'/>
+    <input id="r3" type='button' value='3호선'/>
+    <input id="r4" type='button' value='4호선'/>
+    <input id="r5" type='button' value='5호선'/>
+    <input id="r6" type='button' value='6호선'/>
+    <input id="r7" type='button' value='7호선'/>
+    <input id="r8" type='button' value='8호선'/>
+    <input id="r9" type='button' value='9호선'/>
+    <input id="r10" type='button' value='신분당'/>
+    <input id="r11" type='button' value='경의중앙선'/>
+    <input id="r12" type='button' value='경춘선'/>
+    <input id="r13" type='button' value='수인분당'/>
+    <input id="r14" type='button' value='공항'/>
+    <input id="r15" type='button' value='우이신설'/>
+  </form>
+  
 
-	<nav role="navigation">
-		<ul id="main-menu" style="height: 50px;">
-			<li><a href="#">지하철 노선</a>
-				<ul id="sub-menu"
-					style="height: 95px; width: 200px; overflow-y: scroll;">
-					<li><a href="#" aria-label="subemnu">1호선</a></li>
-					<li><a href="#" aria-label="subemnu">2호선</a></li>
-					<li><a href="#" aria-label="subemnu">3호선</a></li>
-					<li><a href="#" aria-label="subemnu">4호선</a></li>
-					<li><a href="#" aria-label="subemnu">5호선</a></li>
-					<li><a href="#" aria-label="subemnu">6호선</a></li>
-					<li><a href="#" aria-label="subemnu">7호선</a></li>
-					<li><a href="#" aria-label="subemnu">8호선</a></li>
-					<li><a href="#" aria-label="subemnu">9호선</a></li>
-					<li><a href="#" aria-label="subemnu">신분당</a></li>
-					<li><a href="#" aria-label="subemnu">경의중앙선</a></li>
-					<li><a href="#" aria-label="subemnu">경춘선</a></li>
-					<li><a href="#" aria-label="subemnu">수인분당</a></li>
-					<li><a href="#" aria-label="subemnu">공항</a></li>
-					<li><a href="#" aria-label="subemnu">우이신설</a></li>
-				</ul></li>
-		</ul>
-	</nav>
 
-	<div class="search1">
-		<input type="text" placeholder="검색어 입력"> <img
-			src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
-	</div>
-	<div class="search2">
-		<input type="text" placeholder="검색어 입력"> <img
-			src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
-	</div>
+  </div>
+
+
+
+
+
+
 </body>
 <script>
-	
+
+
 </script>
 
 </html>
