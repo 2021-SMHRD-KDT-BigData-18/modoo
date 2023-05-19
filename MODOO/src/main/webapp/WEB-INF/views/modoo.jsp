@@ -175,7 +175,47 @@
 
 	<!-- box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4box4 -->
 	<div class="box4">
-		
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+		<canvas id="pieChartCanvas" width="480px" height="500px"></canvas>
+
+		<script>
+			window.onload = function() {
+				pieChartDraw();
+			}
+
+			let pieChartData = {
+				labels : [ '1호선', '2호선', '3호선', '4호선', '5호선', '6호선', '7호선',
+						'8호선', '9호선', '경의중앙', '경춘', '수인분당', '신림', '신분당', '우이신설' ],
+				datasets : [ {
+					data : [ 30, 60, 43, 146, 27, 16, 9, 1, 10, 3, 1, 5, 1, 1,
+							2 ],
+					backgroundColor : [ 'rgb(31, 119, 180,0.6)',
+							'rgb(255, 127, 14,0.6)', 'rgb(44, 160, 44,0.6)',
+							'rgb(214, 39, 40,0.6)', 'rgb(148, 103, 189,0.6)',
+							'rgb(140, 86, 75,0.6)', 'rgb(227, 119, 194,0.6)',
+							'rgb(127, 127, 127,0.6)', 'rgb(188, 189, 34,0.6)',
+							'rgb(23, 190, 207,0.6)', 'rgb(174, 199, 232)',
+							'rgb(255, 187, 120)', 'rgb(152, 223, 138)',
+							'rgb(255, 152, 150)', 'rgb(197, 176, 213)' ]
+				} ]
+			};
+
+			let pieChartDraw = function() {
+				let ctx = document.getElementById('pieChartCanvas').getContext(
+						'2d');
+
+				window.pieChart = new Chart(ctx, {
+					type : 'doughnut',
+					data : pieChartData,
+					options : {
+						responsive : false
+					}
+				});
+			};
+		</script>
 	</div>
 
 	<!-- box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5 -->
