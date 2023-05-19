@@ -39,10 +39,10 @@
 		};
 
 		let pieChartDraw = function() {
-			let ctx = document.getElementById('pieChartCanvas')
+			let cul_chart4 = document.getElementById('pieChartCanvas')
 					.getContext('2d');
 
-			window.pieChart = new Chart(ctx, {
+			window.pieChart = new Chart(cul_chart4, {
 				type : 'doughnut',
 				data : pieChartData,
 				options : {
