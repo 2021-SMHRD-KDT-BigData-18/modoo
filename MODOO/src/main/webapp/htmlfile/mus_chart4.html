@@ -3,8 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<!--Load the AJAX API-->
+<script type="text/javascript"
+	src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	google.charts.load('current', {
+		'packages' : [ 'corechart' ]
+	});
+	google.charts.setOnLoadCallback(drawChart3);
+	function drawChart3() {
+		var data = google.visualization.arrayToDataTable([
+				[ 'Task', 'Hours per Day' ], [ '1호선', 9 ], [ '2호선', 14 ],
+				[ '3호선', 22 ], [ '4호선', 19 ], [ '5호선', 13 ], [ '6호선', 9 ],
+				[ '7호선', 6 ], [ '8호선', 4 ], [ '9호선', 5 ], [ '공항', 1 ],
+				[ '경의중앙', 2 ], [ '수인분당', 6 ], [ '신분당', 2 ], [ '신림', 2 ],
+				[ '우이신설', 3 ] ]);
+
+		var options = {
+			title : '지하철 호선',
+			pieHole : 0.4,
+		};
+
+		var chart = new google.visualization.PieChart(document
+				.getElementById('donutchart'));
+		chart.draw(data, options);
+	}
+</script>
 </head>
 <body>
-
+	<div id="donutchart" style="width: 500px; height: 400px;"></div>
 </body>
 </html>
