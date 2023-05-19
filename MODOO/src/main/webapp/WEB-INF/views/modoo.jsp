@@ -19,7 +19,6 @@
 		<div class="chart-div">
 			<canvas id="pieChartCanvas" width="380px" height="400px"></canvas>
 		</div>
-
 		<script>
 			window.onload = function() {
 				pieChartDraw();
@@ -66,10 +65,7 @@
 
 	<!-- box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2box2 -->
 	<div class="box2">
-		<div>
-			<canvas id="cul_chart3"></canvas>
-		</div>
-
+		<canvas id="cul_chart3" width="380px" height="400px"></canvas>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 		<script>
@@ -111,10 +107,7 @@
 
 	<!-- box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3box3 -->
 	<div class="box3">
-		<div>
-			<canvas id="cul_chart2"></canvas>
-		</div>
-
+		<canvas id="cul_chart2" width="380px" height="400px"></canvas>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 		<script>
@@ -224,15 +217,13 @@
 		</ul>
 	</nav>
 
-	<div class="search1">
+	<!-- <div class="search1">
 		<input type="text" placeholder="검색어 입력"> <img
 			src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
 	</div>
 	<div class="search2">
 		<input type="text" placeholder="검색어 입력"> <img
 			src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
-	</div>
-
-	<script src="/js/modoo.js"></script>
+	</div> --> <script src="/js/modoo.js"></script>
 </body>
 </html>

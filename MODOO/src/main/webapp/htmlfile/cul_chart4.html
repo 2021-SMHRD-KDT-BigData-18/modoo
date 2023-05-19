@@ -13,9 +13,7 @@
 		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
-	<div class="chart-div">
-		<canvas id="pieChartCanvas" width="500px" height="500px"></canvas>
-	</div>
+		<canvas id="pieChartCanvas" width="100px" height="100px"></canvas>
 
 	<script>
 		window.onload = function() {
@@ -39,10 +37,10 @@
 		};
 
 		let pieChartDraw = function() {
-			let cul_chart4 = document.getElementById('pieChartCanvas')
+			let ctx = document.getElementById('pieChartCanvas')
 					.getContext('2d');
 
-			window.pieChart = new Chart(cul_chart4, {
+			window.pieChart = new Chart(ctx, {
 				type : 'doughnut',
 				data : pieChartData,
 				options : {
