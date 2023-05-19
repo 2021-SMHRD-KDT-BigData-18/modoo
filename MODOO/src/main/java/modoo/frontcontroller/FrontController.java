@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import modoo.controller.Controller;
-import modoo.controller.GoModooCon;
+import modoo.controller.GoCultureCon;
 
 @WebServlet("*.com")
 public class FrontController extends HttpServlet {
@@ -22,7 +22,7 @@ public class FrontController extends HttpServlet {
 
 		mappings = new HashMap<String, Controller>();
 		
-		mappings.put("/goModoo.com", new GoModooCon());
+		mappings.put("/culture.com", new GoCultureCon());
 		
 		
 		
