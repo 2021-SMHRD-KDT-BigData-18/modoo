@@ -2,23 +2,30 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>지난 1년동안 시도별 전시회 관람객수</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
+<<<<<<< HEAD
 	<div>
 <<<<<<< HEAD
 		<canvas id="myChart"></canvas>
 	</div>
+=======
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-BigData-18/modoo.git
 
-	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-	<script>
-		const ctx = document.getElementById('myChart');
+    <script>
+        const ctx = document.getElementById('myChart');
 
+<<<<<<< HEAD
 		new Chart(ctx, {
 			type : 'bar',
 			data : {
@@ -45,6 +52,64 @@
 				}
 			}
 					</script>
+=======
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['1위','2위','3위','4위','5위','6위','7위','8위','9위','10위'],
+                datasets: [{
+                        label: '여자',
+                        data: [84,81.7,66.7,91.8,81.4,62.9,73.2,66.4,83,72.8],
+                        backgroundColor: "red",
+                        borderColor: "red",
+                        borderWidth: 1.5,
+                    },  {
+                        label: '남자',
+                        data: [16,18.3,33.3,8.2,18.6,37.1,26.8,33.6,17,27.2],
+                        backgroundColor: "blue",
+                        borderColor: "blue",
+                        borderWidth: 1.5,
+                        // yAxisID:'y_asd'
+                    }
+                ]
+            },
+            options: {
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '남녀비율',
+                        fontSize: 15
+                    }
+                },
+                scales: {
+                    y: {
+                        ticks : {
+                     beginAtZero : true,
+                            color:'white'
+                  },
+                        stacked: true,
+                        text:'',
+                        min:0,
+                        max:100
+                        },
+                   x:{
+                    ticks : {
+                     beginAtZero : true,
+                            color:'white'
+                  },
+                    stacked: true,
+                   }
+                   
+                   
+                }
+
+            }
+        });
+
+
+
+    </script>
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-BigData-18/modoo.git
 </body>
 
 </html>
