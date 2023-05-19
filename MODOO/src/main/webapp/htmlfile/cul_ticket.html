@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<body>
+
+	<div>
+		<canvas id="myChart"></canvas>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+	<script>
+		const ctx = document.getElementById('myChart');
+
+		new Chart(ctx, {
+			type : 'line',
+
+			data : {
+				labels : [ '연극', '뮤지컬', '서양음악(클래식)', '한국음악(국악)', '대중음악',
+						'무용(서양/한국무용)', '대중무용', '서커스/마술', '복합' ],
+				datasets : [
+						{
+							label : [ '티켓 판매 수' ],
+							data : [ 2799532, 7341769, 2469083, 374835,
+									4356709, 539587, 48545, 280284, 134283 ],
+							backgroundColor : 'blue',
+							borderColor : 'blue',
+							borderWidth : 2,
+
+						},
+						{
+							label : [ '티켓 판매 금액(원)' ],
+							data : [ 46134387, 424978985, 67881328, 6161088,
+									453585657, 14594266, 3932478, 9153958,
+									2057739 ],
+							backgroundColor : 'green',
+							borderColor : 'green',
+							borderWidth : 2,
+							yAxisID : 'ydd'
+						} ]
+			},
+			options : {
+
+				scales : {
+					y : {
+						beginAtZero : true,
+
+						title : {
+							display : true,
+							text : '티켓 판매 수',
+							fontSize : 15
+						}
+					},
+					ydd : {
+						position : 'right',
+						tick : {
+							beginAtZero : true,
+
+						},
+						title : {
+							display : true,
+							text : '일평균'
+						}
+					}
+				}
+			}
+
+		});
+	</script>
+
+
+
+</body>
+
+</html>
