@@ -43,32 +43,45 @@
 						} ]
 			},
 			options : {
-
+              
 				scales : {
+                    x:{
+                        ticks : {
+							beginAtZero : true,
+                            color:'white'
+						},
+                    },
 					y : {
 						beginAtZero : true,
-
+                        ticks : {
+							beginAtZero : true,
+                            color:'white'
+						},
 						title : {
 							display : true,
 							text : '티켓 판매 수',
-							fontSize : 15
+							fontSize : 15,
+                            color:'white'
+                            
 						}
 					},
 					ydd : {
 						position : 'right',
-						tick : {
+						ticks : {
 							beginAtZero : true,
-
+                            color:'white'
 						},
 						title : {
 							display : true,
-							text : '일평균'
+							text : '티켓 판매 금액(원)',
+                            color:'white'
 						}
 					}
 				}
 			}
 
 		});
+        
 	</script>
 </body>
 
