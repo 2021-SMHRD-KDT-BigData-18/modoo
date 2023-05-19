@@ -10,6 +10,10 @@
 <body style="overflow: hidden;">
 	<h1>modoo</h1>
 
+	<!-- 공연장 선택시 -->
+	<!-- 공연장 선택시 -->
+	<!-- 공연장 선택시 -->
+	<%-- <%if(a.equals("공연장") {  %> --%>
 	<!-- box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1box1 -->
 	<div class="box1">
 		<script
@@ -217,9 +221,13 @@
 			};
 		</script>
 	</div>
-
+	<%-- <%} %> --%>
 	<!-- box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5box5 -->
-	<div class="box5"></div>
+	<div class="box5">
+	
+	
+	
+	</div>
 
 	<nav1 role="navigation">
 	<ul id="one-menu" style="height: 50px;">
@@ -232,6 +240,12 @@
 			</ul></li>
 	</ul>
 	</nav>
+
+
+	<!-- 박물관 선택시 --> <!-- 박물관 선택시 --> <!-- 박물관 선택시 --> <!-- 전시관 선택시 --> <!-- 전시관 선택시 -->
+	<!-- 전시관 선택시 -->
+
+
 
 	<nav role="navigation">
 		<ul id="main-menu" style="height: 50px;">
