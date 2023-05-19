@@ -1,125 +1,156 @@
-@charset "UTF-8";
+@font-face {
+	font-family: 'TAEBAEKmilkyway';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
 
- @font-face {
-      font-family: 'TAEBAEKmilkyway';
-      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
-      font-weight: normal;
-      font-style: normal;
-    }
+body {
+	font-family: 'TAEBAEKmilkyway';
+	background-image: url("/img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition-duration: 3s;
+}
 
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
 
+h1 {
+	text-align: center;
+	margin-top: 0;
+	font-size: 80px;
+	color: rgb(0, 0, 0, 0);
+	-webkit-text-stroke: 3px rgb(255, 255, 255);
+}
 
+.box1 {
+	position: absolute;
+	top: 20px;
+	right: 76%;
+	min-height: 400px;
+	width: 380px;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+	border: solid;
+	border-width: thin;
+	border-color: rgb(255, 255, 255);
+}
 
-    body {
-      font-family: 'TAEBAEKmilkyway';
-      background-image: url("/img/background.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition-duration: 3s;
-    }
+.box2 {
+	position: absolute;
+	top: 20px;
+	left: 76%;
+	min-height: 400px;
+	width: 380px;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+	border: solid;
+	border-width: thin;
+	border-color: rgb(255, 255, 255);
+}
 
-    .container{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-    }
+.box3 {
+	position: absolute;
+	top: 450px;
+	right: 76%;
+	min-height: 400px;
+	width: 380px;
+	background: rgb(0, 0, 0, 0);
+	border: solid;
+	border-width: thin;
+	border-color: rgb(255, 255, 255);
+	overflow: hidden;
+}
 
-    h1 {
-      text-align: center;
-      margin-top: 0;
-      font-size: 80px;
-      color: rgb(0, 0, 0, 0);
-      -webkit-text-stroke: 3px rgb(255, 255, 255);
-    }
+.box4 {
+	position: absolute;
+	top: 450px;
+	left: 76%;
+	min-height: 400px;
+	width: 380px;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+	border: solid;
+	border-width: thin;
+	border-color: rgb(255, 255, 255);
+}
 
+.box5 {
+	position: absolute;
+	/* justify-content: center; */
+	top: 250px;
+	left: 27%;
+	height: 600px;
+	width: 800px;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+	border: solid;
+	border-width: thin;
+	border-color: rgb(255, 255, 255);
+	background-image: url(img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
+nav1 {
+	position: absolute;
+	top: 150px;
+	right: 60%;
+	width: 200px;
+	background: rgba(0, 0, 0, 0);
+	border: solid;
+	border-width: thin;
+	border-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+}
 
+button {
+	background: #00028aa6;
+	color: #fff;
+	border: none;
+	position: relative;
+	height: 30px;
+	font-size: 0.2em;
+	padding: 0 2em;
+	cursor: pointer;
+	transition: 800ms ease all;
+	outline: none;
+	/* grid-row: 0; */
+}
 
-    .box1 {
-      position: absolute;
-      top: 20px;
-      right: 76%;
-      min-height: 400px;
-      width: 380px;
-  
-      background: rgb(0, 0, 0, 0);
-      overflow: hidden;
-      border: solid;
-      border-width: thin;
-      border-color: rgb(255, 255, 255);
+button:hover {
+	background: rgba(0, 0, 0, 0);
+	color: #ffffff;
+}
 
-    }
+button:before, button:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: #00028aa6;
+	transition: 400ms ease all;
+}
 
-    .box2 {
-      position: absolute;
-      top: 20px;
-      left: 76%;
-      min-height: 400px;
-      width: 380px;
+button:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
 
-      background: rgb(0, 0, 0, 0);
-      overflow: hidden;
-      border: solid;
-      border-width: thin;
-      border-color: rgb(255, 255, 255);
-    }
-
-    .box3 {
-      position: absolute;
-      top: 450px;
-      right: 76%;
-      min-height: 400px;
-      width: 380px;
-
-      background: rgb(0, 0, 0, 0);
-      border: solid;
-      border-width: thin;
-      border-color: rgb(255, 255, 255);
-      overflow: hidden;
-    }
-
-    .box4 {
-      position: absolute;
-      top: 450px;
-      left: 76%;
-      min-height: 400px;
-      width: 380px;
-      background: rgb(0, 0, 0, 0);
-      overflow: hidden;
-      border: solid;
-      border-width: thin;
-      border-color: rgb(255, 255, 255);
-    }
-
-    .box5 {
-      position: absolute;
-      /* justify-content: center; */
-      top: 250px;
-      left: 27%;
-      height: 600px;
-      width: 800px;
-      background: rgb(0, 0, 0, 0);
-      overflow: hidden;
-      border: solid;
-      border-width: thin;
-      border-color: rgb(255, 255, 255);
-      background-image: url("/img/1호선.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-
-    nav1 {
-      position: absolute;
-      top: 150px;
-      right: 60%;
-      width: 200px;
-      background: rgba(0,0,0,0);
-      border: solid;
-      border-width: thin;
-      border-color: rgb(255, 255, 255);
-      display: flex;
-      justify-content: center;
-
-    }
+button:hover:before, button:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
+}
