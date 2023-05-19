@@ -9,16 +9,13 @@
 </head>
 
 <body>
-	<div>
-		<canvas id="myChart"></canvas>
-	</div>
-
+	<canvas id="cul_chart3" width="380px" height="400px"></canvas>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 	<script>
-		const ctx = document.getElementById('myChart');
+		const cul_chart3 = document.getElementById('cul_chart3');
 
-		new Chart(ctx, {
+		new Chart(cul_chart3, {
 			type : 'bar',
 			data : {
 				labels : [ '세종문화회관대극장', '올림픽홀', '롯데콘서트홀', '세종대학교 대양홀',
