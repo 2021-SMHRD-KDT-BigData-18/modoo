@@ -1,6 +1,4 @@
-@charset "UTF-8";
-
- @font-face {
+@font-face {
 	font-family: 'TAEBAEKmilkyway';
 	src:
 		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2')
@@ -11,7 +9,7 @@
 
 body {
 	font-family: 'TAEBAEKmilkyway';
-	background-image: url(img/aKakaoTalk_20230518_171521149.jpg);
+	background-image: url("/img/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition-duration: 3s;
@@ -32,7 +30,7 @@ h1 {
 	-webkit-text-stroke: 3px rgb(255, 255, 255);
 }
 
-.boxbox1 {
+.box1 {
 	position: absolute;
 	top: 20px;
 	right: 76%;
@@ -45,7 +43,7 @@ h1 {
 	border-color: rgb(255, 255, 255);
 }
 
-.boxbox2 {
+.box2 {
 	position: absolute;
 	top: 20px;
 	left: 76%;
@@ -58,7 +56,7 @@ h1 {
 	border-color: rgb(255, 255, 255);
 }
 
-.boxbox3 {
+.box3 {
 	position: absolute;
 	top: 450px;
 	right: 76%;
@@ -71,7 +69,7 @@ h1 {
 	overflow: hidden;
 }
 
-.boxbox4 {
+.box4 {
 	position: absolute;
 	top: 450px;
 	left: 76%;
@@ -84,7 +82,7 @@ h1 {
 	border-color: rgb(255, 255, 255);
 }
 
-.boxbox5 {
+.box5 {
 	position: absolute;
 	/* justify-content: center; */
 	top: 250px;
@@ -113,4 +111,46 @@ nav1 {
 	border-color: rgb(255, 255, 255);
 	display: flex;
 	justify-content: center;
+}
+
+button {
+	background: #00028aa6;
+	color: #fff;
+	border: none;
+	position: relative;
+	height: 30px;
+	font-size: 0.2em;
+	padding: 0 2em;
+	cursor: pointer;
+	transition: 800ms ease all;
+	outline: none;
+	/* grid-row: 0; */
+}
+
+button:hover {
+	background: rgba(0, 0, 0, 0);
+	color: #ffffff;
+}
+
+button:before, button:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2px;
+	width: 0;
+	background: #00028aa6;
+	transition: 400ms ease all;
+}
+
+button:after {
+	right: inherit;
+	top: inherit;
+	left: 0;
+	bottom: 0;
+}
+
+button:hover:before, button:hover:after {
+	width: 100%;
+	transition: 800ms ease all;
 }
