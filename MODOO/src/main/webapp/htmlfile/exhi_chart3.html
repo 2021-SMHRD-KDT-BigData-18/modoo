@@ -1,10 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
-<body>
 
+<body>
+   <div>
+      <canvas id="myChart"></canvas>
+      <canvas id="myChart1"></canvas>
+      <canvas id="myChart2"></canvas>
+      <canvas id="myChart3"></canvas>
+      <canvas id="myChart4"></canvas>
+      <canvas id="myChart5"></canvas>
+      <canvas id="myChart6"></canvas>
+      <canvas id="myChart7"></canvas>
+      <canvas id="myChart8"></canvas>
+      <canvas id="myChart9"></canvas>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+   <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 1.1, 24.3, 33.7, 26.5, 11.8],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx1 = document.getElementById('myChart1');
+
+      new Chart(ctx1, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 1,16.8,32.1,27.2,17],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx2 = document.getElementById('myChart2');
+
+      new Chart(ctx2, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 0,17.1,31.1,25.7,19.1],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx3 = document.getElementById('myChart3');
+
+      new Chart(ctx3, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 0.1,1.7,40.4,54.7,2.6],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx4 = document.getElementById('myChart4');
+
+      new Chart(ctx4, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 1.4,20.9,26.3,23.6,19.5],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx5 = document.getElementById('myChart5');
+
+      new Chart(ctx5, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 0.2,9.9,22.3,20.9,25.1],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx6 = document.getElementById('myChart6');
+
+      new Chart(ctx6, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [3.9,20.9,31.1,20.9,19.4],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx7 = document.getElementById('myChart7');
+
+      new Chart(ctx7, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 3.7,30,26.5,21.2,14.3],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx8 = document.getElementById('myChart8');
+
+      new Chart(ctx8, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 0.1,7.2,24.1,35,22.6],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+      const ctx9 = document.getElementById('myChart9');
+
+      new Chart(ctx9, {
+         type : 'bar',
+         data : {
+            labels : [ '10대', '20대', '30대', '40대','50대',],
+            datasets : [ {
+               label : '연령대',
+               data : [ 5,30.2,32.4,19.3,10.7],
+               backgroundColor : "rgba(240,73,73,0.5)",
+               borderColor : "rgba(240,73,73,0.5)",
+               borderWidth : 1
+            } ]
+         },
+         options : {
+            scales : {
+               y : {
+                  beginAtZero : true,
+                  stacked : true,
+                  text : '',
+                  min : 0,
+               },
+               x : {
+                  stacked : true
+               },
+
+            }
+
+         }
+      });
+    //   ///////////////////////////////////////////
+    
+
+   </script>
 </body>
+
 </html>
