@@ -34,7 +34,6 @@ h1 {
 	right: 76%;
 	min-height: 400px;
 	width: 380px;
-	/* padding: 10px; */
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
 	border: solid;
@@ -48,7 +47,6 @@ h1 {
 	left: 76%;
 	min-height: 400px;
 	width: 380px;
-	/* padding: 10px; */
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
 	border: solid;
@@ -62,7 +60,6 @@ h1 {
 	right: 76%;
 	min-height: 400px;
 	width: 380px;
-	/* padding: 10px; */
 	background: rgb(0, 0, 0, 0);
 	border: solid;
 	border-width: thin;
