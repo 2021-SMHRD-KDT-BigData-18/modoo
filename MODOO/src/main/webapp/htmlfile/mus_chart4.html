@@ -1,40 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
-<!--Load the AJAX API-->
-<script type="text/javascript"
-	src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript">
-	google.charts.load('current', {
-		'packages' : [ 'corechart' ]
-	});
-	google.charts.setOnLoadCallback(drawChart3);
-	function drawChart3() {
-		var data = google.visualization.arrayToDataTable([
-				[ 'Task', 'Hours per Day' ], [ '1호선', 9 ], [ '2호선', 14 ],
-				[ '3호선', 22 ], [ '4호선', 19 ], [ '5호선', 13 ], [ '6호선', 9 ],
-				[ '7호선', 6 ], [ '8호선', 4 ], [ '9호선', 5 ], [ '공항', 1 ],
-				[ '경의중앙', 2 ], [ '수인분당', 6 ], [ '신분당', 2 ], [ '신림', 2 ],
-				[ '우이신설', 3 ] ]);
+</head>
 
-		var options = {
-			title : '지하철 호선',
-			pieHole : 0.4,
+<body>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+	<div class="chart-div">
+		<canvas id="pieChartCanvas" width="500px" height="500px"></canvas>
+	</div>
+
+	<script>
+		window.onload = function() {
+			mdpieChartDraw();
+		}
+
+		let mdpieChartData = {
+			labels : [ '1호선', '2호선', '3호선', '4호선', '5호선', '6호선', '7호선', '8호선',
+					'9호선', '경의중앙', '공항', '수인분당', '신림', '신분당', '우이신설' ],
+			datasets : [ {
+				data : [ 9, 14, 22, 19, 13, 9, 6, 4, 5, 2, 1, 6, 2, 2, 3 ],
+				backgroundColor : [ 'rgb(31, 119, 180,0.6)',
+						'rgb(255, 127, 14,0.6)', 'rgb(44, 160, 44,0.6)',
+						'rgb(214, 39, 40,0.6)', 'rgb(148, 103, 189,0.6)',
+						'rgb(140, 86, 75,0.6)', 'rgb(227, 119, 194,0.6)',
+						'rgb(127, 127, 127,0.6)', 'rgb(188, 189, 34,0.6)',
+						'rgb(23, 190, 207,0.6)', 'rgb(174, 199, 232)',
+						'rgb(255, 187, 120)', 'rgb(152, 223, 138)',
+						'rgb(255, 152, 150)', 'rgb(197, 176, 213)' ]
+			} ]
 		};
 
-		var chart = new google.visualization.PieChart(document
-				.getElementById('donutchart'));
-		chart.draw(data, options);
-	}
-</script>
-</head>
-<body>
-	<div id="donutchart" style="width: 500px; height: 400px;"></div>
+		let mdpieChartDraw = function() {
+			let ctx = document.getElementById('pieChartCanvas')
+					.getContext('2d');
+
+			window.pieChart = new Chart(ctx, {
+				type : 'doughnut',
+				data : mdpieChartData,
+				options : {
+					responsive : false
+				}
+			});
+		};
+	</script>
 </body>
+
 </html>
