@@ -1,0 +1,34 @@
+<canvas id="exhi_chart4" width="380px" height="400px"></canvas>
+<script>
+	const exhi_chart4 = document.getElementById('exhi_chart4');
+	new Chart(exhi_chart4, {
+		type : 'doughnut',
+		data : {
+			labels : [ '서울', '부산', '대구', '인천', '광주', '대전', '울산', '세종', '경기',
+					'강원', '충북', '충남', '전북', '전남', '경북', '경남', '제주' ],
+			datasets : [ {
+				data : [ 83, 72, 38, 76, 59, 46, 75, 96, 55, 46, 48, 49, 24,
+						53, 33, 43, 74 ],
+				backgroundColor : [ 'rgb(112, 146, 190,0.6)',
+						'rgb(35, 139, 243,0.6)', 'rgb(65, 92, 162,0.6)',
+						'rgb(0, 162, 232, 0.6)', 'rgb(30, 210, 184, 0.6)',
+						'rgb(51, 51, 153, 0.6)', 'rgb(204, 204, 225, 0.6)',
+						'rgb(153, 102, 204,0.6)', 'rgb(102, 51, 255, 0.6)',
+						'rgb(153, 204, 255,0.6)', 'rgb(51, 102, 204)',
+						'rgb(0, 51, 255)', 'rgb(204, 0, 255)',
+						'rgb(102, 204, 255)', 'rgb(0, 204, 255)',
+						'rgb(0, 162, 232, 0.6)', 'rgb(30, 210, 184, 0.6)' ]
+			} ]
+		},
+		options : {
+			plugins : {
+				title : {
+					display : true,
+					text : '지역 분류',
+					color : 'white',
+					fontSize : 15
+				}
+			}
+		},
+	});
+</script>
