@@ -93,7 +93,7 @@ $(function() {
 	$("#cul_s1").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile/cul_h1.html', dataType: 'html', success: function(data) {
+				'/htmlfile2/cul_h1.html', dataType: 'html', success: function(data) {
 					$("#boxbox5").html(data);
 				}
 		});
@@ -103,7 +103,77 @@ $(function() {
 	$("#cul_s2").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile/cul_h2.html', dataType: 'html', success: function(data) {
+				'/htmlfile2/cul_h2.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s3").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h3.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s4").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h4.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s5").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h5.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s6").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h6.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s7").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h7.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s8").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h8.html', dataType: 'html', success: function(data) {
+					$("#boxbox5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#cul_s9").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile2/cul_h9.html', dataType: 'html', success: function(data) {
 					$("#boxbox5").html(data);
 				}
 		});

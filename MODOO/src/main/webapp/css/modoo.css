@@ -85,7 +85,6 @@ h1 {
 
 .box5 {
 	position: absolute;
-	/* justify-content: center; */
 	top: 250px;
 	left: 27%;
 	height: 600px;
@@ -95,10 +94,6 @@ h1 {
 	border: solid;
 	border-width: thin;
 	border-color: rgb(255, 255, 255);
-	background-image: url("/img/dog.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 nav1 {
@@ -124,7 +119,7 @@ input {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
-	background-image: url("/img/background.jpg");
+	background-image: url("/img/1호선.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -133,7 +128,70 @@ input {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
-	background-image: url("/img/1sub.jpg");
+	background-image: url("/img/2호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h3 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/3호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h4 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/4호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h5 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/5호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h6 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/6호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h7 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/7호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h8 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/8호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h9 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/9호선.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
