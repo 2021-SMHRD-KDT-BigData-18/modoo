@@ -196,6 +196,168 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+#exhi_h1 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/1호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h2 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/2호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h3 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/3호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h4 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/4호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h5 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/5호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h6 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/6호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h7 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/7호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h8 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/8호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#exhi_h9 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/9호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h1 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/1호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h2 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/2호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h3 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/3호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h4 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/4호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h5 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/5호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h6 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/6호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h7 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/7호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h8 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/8호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#mus_h9 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/9호선.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 /*button {
 	background: #00028aa6;
 	color: #fff;
