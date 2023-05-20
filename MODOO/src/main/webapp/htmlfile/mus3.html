@@ -1,0 +1,80 @@
+
+<canvas id="mus_chart3" width="380px" height="400px"></canvas>
+
+<script>
+	const mus_chart3 = document.getElementById('mus_chart3');
+
+	new Chart(mus_chart3,
+			{
+				type : 'line',
+				data : {
+					labels : [ '2016', '2017', '2018', '2019', '2020', '2021',
+							'2022' ],
+					datasets : [ {
+						label : '년도별 검색량',
+						data : [ 7417, 7759, 8274, 8043, 6416, 8683, 11033 ],
+						backgroundColor : "red",
+						borderColor : "red",
+						borderWidth : 1.5,
+					}, {
+						label : '년도별 일일 검색량 평균',
+						data : [ 20, 21, 22, 22, 17, 23, 30 ],
+						backgroundColor : "blue",
+						borderColor : "blue",
+						borderWidth : 1.5,
+						yAxisID : 'y_asd'
+					} ]
+				},
+				options : {
+					plugins : {
+						title : {
+							color : 'white',
+							display : true,
+							text : '검색량',
+							fontSize : 15
+						}
+					},
+					scales : {
+						x : {
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+						},
+						y : {
+							title : {
+								display : true,
+								text : '년도별 검색량',
+								color : 'white'
+							},
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+							text : '',
+							min : 6000,
+							max : 13000
+						},
+
+						y_asd : {
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+							position : 'right',
+							tick : {
+								beginAtZero : true,
+
+							},
+							title : {
+								display : true,
+								text : '년도별 일일 평균',
+								color : 'white'
+							}
+						},
+
+					}
+
+				}
+			});
+</script>

@@ -13,6 +13,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition-duration: 3s;
+	z-index: 0;
 }
 
 .container {
@@ -94,7 +95,7 @@ h1 {
 	border: solid;
 	border-width: thin;
 	border-color: rgb(255, 255, 255);
-	background-image: url(img/1.jpg);
+	background-image: url("/img/dog.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -113,7 +114,31 @@ nav1 {
 	justify-content: center;
 }
 
-button {
+input {
+	position: relative;
+	height: 30px;
+	font-size: 0.3em;
+}
+
+#cul_h1 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#cul_h2 {
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	background-image: url("/img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*button {
 	background: #00028aa6;
 	color: #fff;
 	border: none;
@@ -124,10 +149,9 @@ button {
 	cursor: pointer;
 	transition: 800ms ease all;
 	outline: none;
-	/* grid-row: 0; */
 }
 
-button:hover {
+ button:hover {
 	background: rgba(0, 0, 0, 0);
 	color: #ffffff;
 }
@@ -154,3 +178,4 @@ button:hover:before, button:hover:after {
 	width: 100%;
 	transition: 800ms ease all;
 }
+*/

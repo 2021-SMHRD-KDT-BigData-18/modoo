@@ -1,0 +1,84 @@
+<canvas id="exhi_chart3" width="380px" height="400px"></canvas>
+
+<script>
+	const exhi_chart3 = document.getElementById('exhi_chart3');
+
+	new Chart(exhi_chart3,
+			{
+				type : 'line',
+				data : {
+					labels : [ '2016', '2017', '2018', '2019', '2020', '2021',
+							'2022' ],
+					datasets : [
+							{
+								label : '년도별 검색량',
+								data : [ 15571, 15899, 20075, 22559, 16183,
+										16947, 19642 ],
+								backgroundColor : "red",
+								borderColor : "red",
+								borderWidth : 1.5,
+							}, {
+								label : '년도별 일일 검색량 평균',
+								data : [ 42, 43, 55, 61, 44, 46, 53 ],
+								backgroundColor : "blue",
+								borderColor : "blue",
+								borderWidth : 1.5,
+								yAxisID : 'y_asd'
+							} ]
+				},
+				options : {
+					plugins : {
+						title : {
+							color : 'white',
+							display : true,
+							text : '검색량',
+							fontSize : 15
+						}
+					},
+					scales : {
+						x : {
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+						},
+						y : {
+							title : {
+								display : true,
+								text : '년도별 검색량',
+								fontSize : 15,
+								color : 'white'
+
+							},
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+							text : '',
+							min : 10000,
+							max : 23000
+						},
+
+						y_asd : {
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+							position : 'right',
+							tick : {
+								beginAtZero : true,
+
+							},
+							title : {
+								display : true,
+								text : '일일 검색량 평균',
+								fontSize : 15,
+								color : 'white'
+							}
+						},
+
+					}
+
+				}
+			});
+</script>
