@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="modoo.dao.ModooDAO">
+
+	<select id="list_cul" resultType="modoo.entity.modoo"
+		parameterType="modoo.entity.modoo">
+		select*from T_CULTURE
+		where sub = #{sub}
+	</select>
+
+	<select id="list_exhi" resultType="modoo.entity.modoo"
+		parameterType="modoo.entity.modoo">
+		select*from T_EXHI
+		where sub = #{sub}
+	</select>
+
+	<select id="list_mus" resultType="modoo.entity.modoo"
+		parameterType="modoo.entity.modoo">
+		select*from T_MUS
+		where sub = #{sub}
+	</select>
+
+</mapper>
