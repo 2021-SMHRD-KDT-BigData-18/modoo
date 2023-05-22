@@ -125,6 +125,16 @@ button {
 	line-height: 23px;
 	cursor: pointer;
 }
+
+.modal_close {
+	top:92%;
+	background-color: gray;
+	left: 30%;
+	right: 30%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
 </style>
 </head>
 
@@ -148,12 +158,9 @@ button {
 
 		<div class="modal">
 			<div class="modal_content" title="클릭">
-				<div>지하철 이름</div>
-				<div>장소 이름</div>
-				<div>사진</div>
-				<div>주소</div>
-				<div>전화번호</div>
-				<div>홈페이지 주소</div>
+				<input type="button" id="btn111" value="정보 보기" />
+				<div id="btnopen"></div>
+				<button class="modal_close">닫기</button>
 			</div>
 		</div>
 	</div>
@@ -166,12 +173,13 @@ button {
 				$(".modal").fadeIn();
 			});
 
-			$(".modal_content").click(function() {
+			$(".modal_close").click(function() {
 				$(".modal").fadeOut();
 			});
 
 		});
 	</script>
+	<script type="text/javascript" src="/js/subway.js"></script>
 
 </body>
 </html>
