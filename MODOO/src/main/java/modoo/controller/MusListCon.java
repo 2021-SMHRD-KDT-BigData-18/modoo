@@ -7,9 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import modoo.dao.ModooDAO;
-import modoo.entity.modoo;
 
-public class CulListCon implements Controller {
+public class MusListCon implements Controller {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response)
