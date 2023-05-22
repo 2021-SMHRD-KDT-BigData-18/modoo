@@ -41,9 +41,9 @@ h1 {
 	width: 380px;
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
-	border: solid;
+/* 	border: solid;
 	border-width: thin;
-	border-color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255); */
 }
 
 .box2 {
@@ -54,9 +54,9 @@ h1 {
 	width: 380px;
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
-	border: solid;
+/* 	border: solid;
 	border-width: thin;
-	border-color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255); */
 }
 
 .box3 {
@@ -66,9 +66,9 @@ h1 {
 	min-height: 400px;
 	width: 380px;
 	background: rgb(0, 0, 0, 0);
-	border: solid;
+/* 	border: solid;
 	border-width: thin;
-	border-color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255); */
 	overflow: hidden;
 }
 
@@ -80,9 +80,9 @@ h1 {
 	width: 380px;
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
-	border: solid;
+/* 	border: solid;
 	border-width: thin;
-	border-color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255); */
 }
 
 .box5 {
@@ -93,9 +93,9 @@ h1 {
 	width: 800px;
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
-	border: solid;
+	/* border: solid;
 	border-width: thin;
-	border-color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255); */
 }
 
 nav1 {
