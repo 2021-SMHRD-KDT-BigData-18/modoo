@@ -24,12 +24,14 @@ body {
 }
 
 h1 {
-	text-align: center;
-	margin-top: 0;
-	font-size: 80px;
-	color: rgb(0, 0, 0, 0);
-	-webkit-text-stroke: 3px rgb(255, 255, 255);
-}
+            text-align: center;
+            margin-top: 0;
+            font-size: 80px;
+            position: absolute;
+            right: 42%;
+            color: rgba(0, 0, 0, 0);
+            -webkit-text-stroke: 3px rgb(255, 255, 255);
+        }
 
 .box1 {
 	position: absolute;
@@ -110,88 +112,77 @@ nav1 {
 }
 
 
- .butnculbox {
+/* ////////////////////////////////////////////// */
+        .butnculbox {
             position: absolute;
             top: 150px;
-            left: 700px;
+            left: 600px;
             min-height: 40px;
             width: 50px;
-            
+            text-align: center;
             background: rgb(0, 0, 0, 0);
             overflow: hidden;
-            border: solid;
-            border-width: thin;
-            border-color: rgb(255, 255, 255);
+            
         }
 
         .butnexhibox {
             position: absolute;
-            top: 190px;
-            left: 700px;
+            top: 180px;
+            left: 600px;
             min-height: 40px;
             width: 50px;
-
+            text-align: center;
             background: rgb(0, 0, 0, 0);
             overflow: hidden;
-            border: solid;
-            border-width: thin;
-            border-color: rgb(255, 255, 255);
+            
         }
         
         .butnmusbox {
             position: absolute;
-            top: 230px;
-            left: 700px;
+            top: 210px;
+            left: 600px;
             min-height: 40px;
             width: 50px;
-            
+            text-align: center;
             background: rgb(0, 0, 0, 0);
             overflow: hidden;
-            border: solid;
-            border-width: thin;
-            border-color: rgb(255, 255, 255);
+           
         }
         
         .butn_culbox_1 {
             position: absolute;
             top: 150px;
-            left: 900px;
+            left: 800px;
             min-height: 80px;
             width: 400px;
-            
+            text-align: center;
             background: rgb(0, 0, 0, 0);
             overflow: hidden;
-            border: solid;
-            border-width: thin;
-            border-color: rgb(255, 255, 255);
+           
         }
 
         .butn_exhi_box1 {
             position: absolute;
-            top: 190px;
-            left: 900px;
+            top: 180px;
+            left: 800px;
             min-height: 80px;
             width: 400px;
-
+            text-align: center;
             background: rgb(0, 0, 0, 0);
             overflow: hidden;
-            border: solid;
-            border-width: thin;
-            border-color: rgb(255, 255, 255);
+            
         }
         
         .butn_mus_box1 {
             position: absolute;
-            top: 230px;
-            left: 900px;
+            top: 210px;
+            left: 800px;
             min-height: 80px;
             width: 400px;
-            
+            text-align: center;
             background: rgb(0, 0, 0, 0);
             overflow: hidden;
-            border: solid;
-            border-width: thin;
-            border-color: rgb(255, 255, 255);
+            
         }
 
 /* ///////////////////////////////////////////////////////////////////////// */
