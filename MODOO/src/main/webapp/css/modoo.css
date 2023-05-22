@@ -109,6 +109,137 @@ nav1 {
 	justify-content: center;
 }
 
+
+ .butnculbox {
+            position: absolute;
+            top: 150px;
+            left: 700px;
+            min-height: 40px;
+            width: 50px;
+            
+            background: rgb(0, 0, 0, 0);
+            overflow: hidden;
+            border: solid;
+            border-width: thin;
+            border-color: rgb(255, 255, 255);
+        }
+
+        .butnexhibox {
+            position: absolute;
+            top: 190px;
+            left: 700px;
+            min-height: 40px;
+            width: 50px;
+
+            background: rgb(0, 0, 0, 0);
+            overflow: hidden;
+            border: solid;
+            border-width: thin;
+            border-color: rgb(255, 255, 255);
+        }
+        
+        .butnmusbox {
+            position: absolute;
+            top: 230px;
+            left: 700px;
+            min-height: 40px;
+            width: 50px;
+            
+            background: rgb(0, 0, 0, 0);
+            overflow: hidden;
+            border: solid;
+            border-width: thin;
+            border-color: rgb(255, 255, 255);
+        }
+        
+        .butn_culbox_1 {
+            position: absolute;
+            top: 150px;
+            left: 900px;
+            min-height: 80px;
+            width: 400px;
+            
+            background: rgb(0, 0, 0, 0);
+            overflow: hidden;
+            border: solid;
+            border-width: thin;
+            border-color: rgb(255, 255, 255);
+        }
+
+        .butn_exhi_box1 {
+            position: absolute;
+            top: 190px;
+            left: 900px;
+            min-height: 80px;
+            width: 400px;
+
+            background: rgb(0, 0, 0, 0);
+            overflow: hidden;
+            border: solid;
+            border-width: thin;
+            border-color: rgb(255, 255, 255);
+        }
+        
+        .butn_mus_box1 {
+            position: absolute;
+            top: 230px;
+            left: 900px;
+            min-height: 80px;
+            width: 400px;
+            
+            background: rgb(0, 0, 0, 0);
+            overflow: hidden;
+            border: solid;
+            border-width: thin;
+            border-color: rgb(255, 255, 255);
+        }
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+.btn{
+
+  color: #0c8aff;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display:inline-block;
+  border:1px solid transparent; 
+   -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  background-color: rgb(0, 0, 0, 0);
+  border-radius: 10%;
+  
+} 
+
+
+
+
+.btn:hover{
+  border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
 	position: relative;
 	height: 30px;
@@ -358,44 +489,3 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-/*button {
-	background: #00028aa6;
-	color: #fff;
-	border: none;
-	position: relative;
-	height: 30px;
-	font-size: 0.2em;
-	padding: 0 2em;
-	cursor: pointer;
-	transition: 800ms ease all;
-	outline: none;
-}
-
- button:hover {
-	background: rgba(0, 0, 0, 0);
-	color: #ffffff;
-}
-
-button:before, button:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 2px;
-	width: 0;
-	background: #00028aa6;
-	transition: 400ms ease all;
-}
-
-button:after {
-	right: inherit;
-	top: inherit;
-	left: 0;
-	bottom: 0;
-}
-
-button:hover:before, button:hover:after {
-	width: 100%;
-	transition: 800ms ease all;
-}
-*/
