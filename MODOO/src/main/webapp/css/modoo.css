@@ -90,7 +90,7 @@ h1 {
 	top: 250px;
 	left: 27%;
 	height: 600px;
-	width: 900px;
+	width: 800px;
 	background: rgb(0, 0, 0, 0);
 	overflow: hidden;
 	border: solid;
@@ -152,7 +152,7 @@ nav1 {
         .butn_culbox_1 {
             position: absolute;
             top: 150px;
-            left: 700px;
+            left: 800px;
             min-height: 80px;
             width: 500px;
             text-align: center;
@@ -164,7 +164,7 @@ nav1 {
         .butn_exhi_box1 {
             position: absolute;
             top: 180px;
-            left: 700px;
+            left: 800px;
             min-height: 80px;
             width: 500px;
             text-align: center;
@@ -176,7 +176,7 @@ nav1 {
         .butn_mus_box1 {
             position: absolute;
             top: 210px;
-            left: 700px;
+            left: 800px;
             min-height: 80px;
             width: 500px;
             text-align: center;
