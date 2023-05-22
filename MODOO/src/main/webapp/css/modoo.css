@@ -124,6 +124,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h2 {
 	height: 600px;
 	width: 800px;
@@ -133,6 +134,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h3 {
 	height: 600px;
 	width: 800px;
@@ -142,7 +144,8 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#cul_h4 {
+
+/* #cul_h4 {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
@@ -150,7 +153,8 @@ input {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-}
+} */
+
 #cul_h5 {
 	height: 600px;
 	width: 800px;
@@ -160,6 +164,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h6 {
 	height: 600px;
 	width: 800px;
@@ -169,6 +174,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h7 {
 	height: 600px;
 	width: 800px;
@@ -178,6 +184,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h8 {
 	height: 600px;
 	width: 800px;
@@ -187,6 +194,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h9 {
 	height: 600px;
 	width: 800px;
@@ -196,6 +204,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h1 {
 	height: 600px;
 	width: 800px;
@@ -205,6 +214,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h2 {
 	height: 600px;
 	width: 800px;
@@ -214,6 +224,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h3 {
 	height: 600px;
 	width: 800px;
@@ -223,6 +234,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h4 {
 	height: 600px;
 	width: 800px;
@@ -232,6 +244,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h5 {
 	height: 600px;
 	width: 800px;
@@ -241,6 +254,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h6 {
 	height: 600px;
 	width: 800px;
@@ -250,6 +264,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h7 {
 	height: 600px;
 	width: 800px;
@@ -259,6 +274,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h8 {
 	height: 600px;
 	width: 800px;
@@ -268,6 +284,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h9 {
 	height: 600px;
 	width: 800px;
@@ -277,6 +294,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h1 {
 	height: 600px;
 	width: 800px;
@@ -286,6 +304,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h2 {
 	height: 600px;
 	width: 800px;
@@ -295,6 +314,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h3 {
 	height: 600px;
 	width: 800px;
@@ -304,6 +324,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h4 {
 	height: 600px;
 	width: 800px;
@@ -313,6 +334,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h5 {
 	height: 600px;
 	width: 800px;
@@ -322,6 +344,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h6 {
 	height: 600px;
 	width: 800px;
@@ -331,6 +354,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h7 {
 	height: 600px;
 	width: 800px;
@@ -340,6 +364,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h8 {
 	height: 600px;
 	width: 800px;
@@ -349,6 +374,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h9 {
 	height: 600px;
 	width: 800px;
@@ -358,44 +384,3 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-/*button {
-	background: #00028aa6;
-	color: #fff;
-	border: none;
-	position: relative;
-	height: 30px;
-	font-size: 0.2em;
-	padding: 0 2em;
-	cursor: pointer;
-	transition: 800ms ease all;
-	outline: none;
-}
-
- button:hover {
-	background: rgba(0, 0, 0, 0);
-	color: #ffffff;
-}
-
-button:before, button:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 2px;
-	width: 0;
-	background: #00028aa6;
-	transition: 400ms ease all;
-}
-
-button:after {
-	right: inherit;
-	top: inherit;
-	left: 0;
-	bottom: 0;
-}
-
-button:hover:before, button:hover:after {
-	width: 100%;
-	transition: 800ms ease all;
-}
-*/
