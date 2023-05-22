@@ -17,52 +17,78 @@ button {
 }
 
 .btn1 {
-	left: 200px;
-	top: 180px;
+	left: 195px;
+	top: 176px;
 }
 
 .btn2 {
-	left: 202px;
-	top: 200px;
+	left: 199px;
+	top: 196px;
 }
 
 .btn3 {
-	left: 240px;
-	top: 280px;
+	left: 229px;
+	top: 283px;
 }
 
 .btn4 {
-	left: 260px;
-	top: 280px;
+	left: 251px;
+	top: 283px;
 }
 
 .btn5 {
-	left: 380px;
-	top: 340px;
+	left: 367px;
+	top: 327px;
 }
 
 .btn6 {
-	left: 440px;
-	top: 340px;
+	left: 429px;
+	top: 333px;
 }
 
 .btn7 {
-	left: 480px;
-	top: 380px;
+	left: 469px;
+	top: 367px;
 }
 
 .btn8 {
-	left: 500px;
-	top: 380px;
+	left: 492px;
+	top: 369px;
 }
 
 .btn9 {
-	left: 520px;
-	top: 380px;
+	left: 513px;
+	top: 369px;
+}
+
+.modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal_content {
+	width: 400px;
+	height: 550px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 74px 0;
+	line-height: 23px;
+	cursor: pointer;
 }
 </style>
-
-
 
 <div id="exhi_h9">
 	<button class="btn1" name="마곡나루역"></button>
@@ -75,5 +101,23 @@ button {
 	<button class="btn8" name="선정릉역"></button>
 	<button class="btn9" name="봉은사역"></button>
 
-
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
+		</div>
+	</div>
 </div>
+
+<script>
+	$(function() {
+
+		$("button").click(function() {
+			$(".modal").fadeIn();
+		});
+
+		$(".modal_content").click(function() {
+			$(".modal").fadeOut();
+		});
+
+	});
+</script>

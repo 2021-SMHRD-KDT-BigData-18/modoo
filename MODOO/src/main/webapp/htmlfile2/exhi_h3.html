@@ -23,8 +23,8 @@ button {
 
 .exhi3_2 {
 	/* 압구정역 */
-	left: 448px;
-	top: 303px;
+	left: 442px;
+    top: 303px;
 }
 
 .exhi3_3 {
@@ -92,6 +92,33 @@ button {
 	left: 383.5px;
 	top: 193px;
 }
+.modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal_content {
+	width: 400px;
+	height: 550px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 74px 0;
+	line-height: 23px;
+	cursor: pointer;
+}
 </style>
 
 <div id="exhi_h3">
@@ -108,4 +135,23 @@ button {
 	<button class="exhi3_11"></button>
 	<button class="exhi3_12"></button>
 	<button class="exhi3_13"></button>
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
+		</div>
+	</div>
 </div>
+
+<script>
+	$(function() {
+
+		$("button").click(function() {
+			$(".modal").fadeIn();
+		});
+
+		$(".modal_content").click(function() {
+			$(".modal").fadeOut();
+		});
+
+	});
+</script>
