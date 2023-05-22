@@ -28,7 +28,7 @@
             <input  class="btn" type="button" id="p3" value="박물관" />
         </div>
         <div class="butn_culbox_1">
-            <input class="btn" type="button" id="cul_s1"  value="1호선" />
+            <input class="btn" type="button" id="cul_s1" value="1호선" />
             <input class="btn" type="button" id="cul_s2" value="2호선" />
             <input class="btn" type="button" id="cul_s3" value="3호선" />
             <input class="btn" type="button" id="cul_s4" value="4호선" />
