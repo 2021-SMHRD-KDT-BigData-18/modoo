@@ -17,110 +17,138 @@ button {
 
 .cul5_1 {
 	/* 광화문역 */
-	left: 361px;
-	top: 145px;
+	left: 354px;
+	top: 136px;
 }
 
 .cul5_2 {
 	/* 서대문역 */
-	left: 333.5px;
-	top: 170px;
+	left: 325.5px;
+	top: 163px;
 }
 
 .cul5_5 {
 	/* 아차산역 */
-	left: 568px;
-	top: 263px;
+	left: 560px;
+	top: 256px;
 }
 
 .cul5_6 {
 	/* 고덕역 */
-	left: 667.5px;
-	top: 291px;
+	left: 659.5px;
+	top: 284px;
 }
 
 .cul5_7 {
 	/* 광나루역 */
-	left: 568px;
-	top: 293.5px;
+	left: 561px;
+	top: 286.5px;
 }
 
 .cul5_8 {
 	/* 목동역 */
-	left: 228.5px;
-	top: 313px;
+	left: 221px;
+	top: 306px;
 }
 
 .cul5_9 {
 	/* 오목교역 */
-	left: 245.5px;
-	top: 313px;
+	left: 238px;
+	top: 306px;
 }
 
 .cul5_10 {
 	/* 여의나루역 */
-	left: 333.5px;
-	top: 289px;
+	left: 325.5px;
+	top: 281px;
 }
 
 .cul5_11 {
 	/* 방이역 */
-	left: 671px;
-	top: 371px;
+	left: 664px;
+	top: 364px;
 }
 
 .cul5_12 {
 	/* 올림픽공원역 */
-	left: 671px;
-	top: 348px;
+	left: 664px;
+	top: 341px;
 }
 
 .cul5_13 {
 	/* 둔촌동역 */
-	left: 653px;
-	top: 333px;
+	left: 646px;
+	top: 326px;
 }
 
 .cul5_14 {
 	/* 장한평역 */
-	left: 566px;
-	top: 209px;
+	left: 558px;
+	top: 202px;
 }
 
 .cul5_15 {
 	/* 거여역 */
-	left: 713px;
-	top: 409px;
+	left: 706px;
+	top: 402px;
 }
 
 .cul5_16 {
 	/* 영등포시장역 */
-	left: 302px;
-	top: 323px;
+	left: 296px;
+	top: 316px;
 }
 
 .cul5_17 {
 	/* 애오개역 */
-	left: 333.5px;
-	top: 231px;
+	left: 325.5px;
+	top: 224px;
 }
 
 .cul5_18 {
 	/* 을지로4가역 */
-	left: 407.5px;
-	top: 199px;
+	left: 399.5px;
+	top: 191px;
 }
 
 .cul5_19 {
 	/* 영등포구청역 */
-	left: 276px;
-	top: 313px;
+	left: 269px;
+	top: 306px;
 }
 
 .cul5_20 {
 	/* 왕십리역 */
-	left: 495.5px;
-	top: 200.5px;
+	left: 490.5px;
+	top: 193.5px;
+}
+
+.modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal_content {
+	width: 400px;
+	height: 550px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 74px 0;
+	line-height: 23px;
+	cursor: pointer;
 }
 </style>
 
@@ -143,4 +171,24 @@ button {
 	<button class="cul5_18"></button>
 	<button class="cul5_19"></button>
 	<button class="cul5_20"></button>
+
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
+		</div>
+	</div>
 </div>
+
+<script>
+	$(function() {
+
+		$("button").click(function() {
+			$(".modal").fadeIn();
+		});
+
+		$(".modal_content").click(function() {
+			$(".modal").fadeOut();
+		});
+
+	});
+</script>

@@ -30,7 +30,7 @@ button {
 
 .cul3_3 {
 	/* 남부터미널역 */
-	left: 448px;
+	left: 442px;
 	top: 421px;
 }
 
@@ -105,6 +105,34 @@ button {
 	left: 481px;
 	top: 425.5px;
 }
+
+.modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal_content {
+	width: 400px;
+	height: 550px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 74px 0;
+	line-height: 23px;
+	cursor: pointer;
+}
 </style>
 
 <div id="cul_h3">
@@ -123,4 +151,24 @@ button {
 	<button class="cul3_15"></button>
 	<button class="cul3_16"></button>
 	<button class="cul3_17"></button>
+
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
+		</div>
+	</div>
 </div>
+
+<script>
+	$(function() {
+
+		$("button").click(function() {
+			$(".modal").fadeIn();
+		});
+
+		$(".modal_content").click(function() {
+			$(".modal").fadeOut();
+		});
+
+	});
+</script>
