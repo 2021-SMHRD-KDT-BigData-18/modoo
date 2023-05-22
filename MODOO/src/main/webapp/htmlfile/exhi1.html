@@ -1,0 +1,27 @@
+
+<canvas id="exhi_chart1" width="380px" height="400px"></canvas>
+<script>
+	const exhi_chart1 = document.getElementById('exhi_chart1');
+
+	new Chart(exhi_chart1, {
+		type : 'pie',
+		data : {
+			labels : [ '국악', '양악', '음악', '무용', '연극', '혼합' ],
+			datasets : [ {
+				data : [ 184, 1842, 0, 173, 1042, 188 ],
+				backgroundColor : [ '#00ADFF', '#7FFF7F', '#000000', '#9595FF',
+						'#a1887f', '#d4e157' ]
+			} ]
+		},
+		options : {
+			plugins : {
+				title : {
+					display : true,
+					text : '장르 분류',
+					color : 'white',
+					fontSize : 15
+				}
+			}
+		},
+	});
+</script>

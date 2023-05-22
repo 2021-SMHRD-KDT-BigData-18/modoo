@@ -1,27 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
+<canvas id="cul_chart1" width="380px" height="400px"></canvas>
+<script>
+	const cul_chart1 = document.getElementById('cul_chart1');
 
-<body>
-	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
-	<div class="chart-div">
-		<canvas id="pieChartCanvas" width="380px" height="400px"></canvas>
-	</div>
-	<script>
-		window.onload = function() {
-			pieChartDraw();
-		}
-
-		let pieChartData = {
+	new Chart(cul_chart1, {
+		type : 'pie',
+		data : { 
 			labels : [ '종로구', '중구', '용산구', '성동구', '광진구', '동대문구', '중랑구', '성북구',
 					'강북구', '도봉구', '노원구', '은평구', '서대문구', '마포구', '양천구', '강서구',
 					'구로구', '금천구', '영등포구', '동작구', '관악구', '서초구', '강남구', '송파구',
@@ -43,21 +27,16 @@
 						'rgb(0, 51, 102)', 'rgb(0, 102, 102)',
 						'rgb(204, 255, 255)', 'rgb(153, 102, 255)' ]
 			} ]
-		};
-
-		let pieChartDraw = function() {
-			let ctx = document.getElementById('pieChartCanvas')
-					.getContext('2d');
-
-			window.pieChart = new Chart(ctx, {
-				type : 'pie',
-				data : pieChartData,
-				options : {
-					responsive : false
+		},
+		options : {
+			plugins : {
+				title : {
+					display : true,
+					text : '구 분류',
+					color : 'white',
+					fontSize : 15
 				}
-			});
-		};
-	</script>
-</body>
-
-</html>
+			}
+		},
+	});
+</script>

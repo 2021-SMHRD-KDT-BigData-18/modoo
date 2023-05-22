@@ -1,0 +1,59 @@
+
+<canvas id="cul_chart3" width="380px" height="400px"></canvas>
+
+<script>
+	const cul_chart3 = document.getElementById('cul_chart3');
+
+	new Chart(cul_chart3,
+			{
+				type : 'bar',
+				data : {
+					labels : [ '세종문화회관대극장', '올림픽홀', '롯데콘서트홀', '세종대학교 대양홀',
+							'광운대학교동해문화예술관', '블루스퀘어', '국립극장 해오름극장',
+							'대성 디큐브아트센터', '충무아트센터' ],
+					datasets : [ {
+						label : '관객석 수',
+						data : [ 6022, 2452, 2036, 2030, 2005, 1767, 1563,
+								1242, 1231 ],
+						backgroundColor : "rgba(240,73,73,0.5)",
+						borderColor : "rgba(240,73,73,0.5)",
+						borderWidth : 1
+					} ]
+				},
+				options : {
+					plugins : {
+						title : {
+							display : true,
+							text : '관객석 수',
+							color : 'white',
+							fontSize : 15
+						}
+					},
+					scales : {
+						y : {
+							title : {
+								display : true,
+								text : '관객석 수',
+								fontSize : 15,
+								color : 'white'
+
+							},
+							beginAtZero : true,
+							text : '',
+							min : 0,
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+						},
+						x : {
+							ticks : {
+								beginAtZero : true,
+								color : 'white'
+							},
+						},
+
+					}
+				}
+			});
+</script>

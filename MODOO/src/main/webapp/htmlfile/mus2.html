@@ -1,0 +1,94 @@
+<canvas id="mus_chart2" width="380px" height="400px"></canvas>
+
+<script>
+	const mus_chart2 = document.getElementById('mus_chart2');
+
+	new Chart(mus_chart2, {
+		type : 'bar',
+		data : {
+			labels : [ '2013년', '2014년', '2015년', '2016년', '2017년', '2018년',
+					'2019년', '2020년', '2021년' ],
+			datasets : [
+					{
+						type : 'line',
+						label : '일평균',
+						data : [ 8360, 9673, 8440, 9279, 9525, 9053, 9189,
+								4749, 3488 ],
+						backgroundColor : "rgba(204, 153, 255, 1)",
+						borderColor : "rgba(204, 153, 255, 1)",
+						borderWidth : 1.5,
+						yAxisID : 'y_sub'
+					},
+					{
+						label : '내국인',
+						data : [ 2904439, 3409679, 2951132, 3212410, 3365004,
+								3178236, 3215625, 1713410, 1259054 ],
+						backgroundColor : "rgba(51, 153, 153, 1)",
+						borderColor : "rgba(51, 153, 153, 1)",
+						borderWidth : 1
+					},
+					{
+						label : '외국인',
+						data : [ 147002, 121102, 129445, 183849, 111602,
+								126217, 138464, 24598, 14119 ],
+						backgroundColor : "rgba(51, 255, 255, 0.7)",
+						borderColor : "rgba(51, 255, 255, 0.7)",
+						borderWidth : 1
+					} ]
+		},
+		options : {
+			plugins : {
+				title : {
+					color : 'white',
+					display : true,
+					text : '이용객수',
+					fontSize : 15
+				}
+			},
+			scales : {
+				y : {
+					title : {
+						color : 'white',
+						display : true,
+						text : '단위 - 명',
+					},
+					ticks : {
+						beginAtZero : true,
+						color : 'white'
+					},
+					beginAtZero : true,
+					stacked : true,
+					text : '',
+					min : 500000,
+				},
+				x : {
+					ticks : {
+						beginAtZero : true,
+						color : 'white'
+					},
+					stacked : true
+				},
+				y_sub : {
+					ticks : {
+						beginAtZero : true,
+						color : 'white'
+					},
+					position : 'right',
+					min : 2000,
+					max : 10000,
+					tick : {
+						beginAtZero : true,
+
+					},
+					title : {
+						color : 'white',
+						display : true,
+						text : '일 평균',
+					}
+				},
+
+			}
+
+		}
+	});
+</script>
