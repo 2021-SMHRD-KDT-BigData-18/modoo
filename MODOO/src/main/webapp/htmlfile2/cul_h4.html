@@ -60,49 +60,58 @@ button {
 	top: 360px;
 }
 
-#modal {
-	position: fixed;
-	z-index: 1;
-	left: 0;
-	top: 0;
+.modal_wrap {
+	display: none;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -250px;
+	background: #eee;
+	z-index: 2;
+}
+
+.black_bg {
+	display: none;
+	position: absolute;
+	content: "";
 	width: 100%;
 	height: 100%;
-	overflow: auto;
-	background-color: rgba(0, 0, 0, 0.4);
-	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
-.modal-content {
-	background-color: #fefefe;
-	margin: 15% auto;
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
+.modal_close {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: -30px;
+	right: 0;
 }
 
-.close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-}
-
-.close:hover, .close:focus {
-	color: black;
-	text-decoration: none;
-	cursor: pointer;
+.modal_close>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(https://img.icons8.com/metro/26/000000/close-window.png);
+	text-indent: -9999px;
 }
 </style>
 
 <div id="cul_h4">
-	<button class="cul4_1" name="혜화"></button>
-	<div id="modal">
-		<div class="modal-content">
-			<h2>모달창 제목</h2>
-			<p>모달창 내용</p>
-			<button id="close-modal">닫기</button>
+	<button class="cul4_1" type="button" name="혜화"></button>
+	<div class="black_bg"></div>
+	<div class="modal_wrap">
+		<div class="modal_close">
+			<a href="#">close</a>
 		</div>
+		<div>모달창 내용</div>
 	</div>
+
+
 	<button class="cul4_2" name="성신여대입구"></button>
 	<button class="cul4_3" name="한성대입구"></button>
 	<button class="cul4_4" name="길음"></button>

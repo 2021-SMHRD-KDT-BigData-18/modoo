@@ -1,13 +1,15 @@
-const modal = document.getElementById("modal");
-const openModalBtn = document.getElementByClassName("cul4_1");
-const closeModalBtn = document.getElementById("close-modal");
-// 모달창 열기
-openModalBtn.addEventListener("click", () => {
-	modal.style.display = "block";
-	document.body.style.overflow = "hidden"; // 스크롤바 제거
-});
-// 모달창 닫기
-closeModalBtn.addEventListener("click", () => {
-	modal.style.display = "none";
-	document.body.style.overflow = "auto"; // 스크롤바 보이기
-});
+window.onload = function() {
+
+	function onClick() {
+		document.querySelector('.modal_wrap').style.display = 'block';
+		document.querySelector('.black_bg').style.display = 'block';
+	}
+	function offClick() {
+		document.querySelector('.modal_wrap').style.display = 'none';
+		document.querySelector('.black_bg').style.display = 'none';
+	}
+
+	document.getElementsByClassName('cul4_1').addEventListener('click', onClick);
+	document.querySelector('.modal_close').addEventListener('click', offClick);
+
+};
