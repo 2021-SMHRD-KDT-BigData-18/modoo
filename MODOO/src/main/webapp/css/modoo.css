@@ -24,14 +24,14 @@ body {
 }
 
 h1 {
-            text-align: center;
-            margin-top: 0;
-            font-size: 80px;
-            position: absolute;
-            right: 42%;
-            color: rgba(0, 0, 0, 0);
-            -webkit-text-stroke: 3px rgb(255, 255, 255);
-        }
+	text-align: center;
+	margin-top: 0;
+	font-size: 80px;
+	position: absolute;
+	right: 43.5%;
+	color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke: 3px rgb(255, 255, 255);
+}
 
 .box1 {
 	position: absolute;
@@ -88,7 +88,7 @@ h1 {
 .box5 {
 	position: absolute;
 	top: 250px;
-	left: 27%;
+	left: 29%;
 	height: 600px;
 	width: 800px;
 	background: rgb(0, 0, 0, 0);
@@ -111,125 +111,94 @@ nav1 {
 	justify-content: center;
 }
 
-
 /* ////////////////////////////////////////////// */
-        .butnculbox {
-            position: absolute;
-            top: 150px;
-            left: 600px;
-            min-height: 40px;
-            width: 70px;
-            text-align: center;
-            background: rgb(0, 0, 0, 0);
-            overflow: hidden;
-            
-        }
-
-        .butnexhibox {
-            position: absolute;
-            top: 180px;
-            left: 600px;
-            min-height: 40px;
-            width: 70px;
-            text-align: center;
-            background: rgb(0, 0, 0, 0);
-            overflow: hidden;
-            
-        }
-        
-        .butnmusbox {
-            position: absolute;
-            top: 210px;
-            left: 600px;
-            min-height: 40px;
-            width: 70px;
-            text-align: center;
-            background: rgb(0, 0, 0, 0);
-            overflow: hidden;
-           
-        }
-        
-        .butn_culbox_1 {
-            position: absolute;
-            top: 150px;
-            left: 800px;
-            min-height: 80px;
-            width: 500px;
-            text-align: center;
-            background: rgb(0, 0, 0, 0);
-            overflow: hidden;
-           
-        }
-
-        .butn_exhi_box1 {
-            position: absolute;
-            top: 180px;
-            left: 800px;
-            min-height: 80px;
-            width: 500px;
-            text-align: center;
-            background: rgb(0, 0, 0, 0);
-            overflow: hidden;
-            
-        }
-        
-        .butn_mus_box1 {
-            position: absolute;
-            top: 210px;
-            left: 800px;
-            min-height: 80px;
-            width: 500px;
-            text-align: center;
-            background: rgb(0, 0, 0, 0);
-            overflow: hidden;
-            
-        }
-
-/* ///////////////////////////////////////////////////////////////////////// */
-
-
-
-
-
-.btn{
-
-  color: rgb(255, 255, 255);
-  font-family: sans-serif;
-  font-size: 80%;
-  font-weight: bolder;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  text-decoration: none;
-  display:inline-block;
-  border:1px solid transparent; 
-   -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
-  background-color: rgb(0, 0, 0, 0);
-  border-radius: 10%;
-  
-} 
-
-
-
-
-.btn:hover{
-  border: 1px solid #ffffff;
+.butnculbox {
+	position: absolute;
+	top: 150px;
+	left: 600px;
+	min-height: 40px;
+	width: 70px;
+	text-align: center;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
 }
 
+.butnexhibox {
+	position: absolute;
+	top: 180px;
+	left: 600px;
+	min-height: 40px;
+	width: 70px;
+	text-align: center;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+}
 
+.butnmusbox {
+	position: absolute;
+	top: 210px;
+	left: 600px;
+	min-height: 40px;
+	width: 70px;
+	text-align: center;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+}
 
+.butn_culbox_1 {
+	position: absolute;
+	top: 150px;
+	left: 800px;
+	min-height: 80px;
+	width: 500px;
+	text-align: center;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+}
 
+.butn_exhi_box1 {
+	position: absolute;
+	top: 180px;
+	left: 800px;
+	min-height: 80px;
+	width: 500px;
+	text-align: center;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+}
 
+.butn_mus_box1 {
+	position: absolute;
+	top: 210px;
+	left: 800px;
+	min-height: 80px;
+	width: 500px;
+	text-align: center;
+	background: rgb(0, 0, 0, 0);
+	overflow: hidden;
+}
 
+/* ///////////////////////////////////////////////////////////////////////// */
+.btn {
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	font-size: 80%;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid transparent;
+	-webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+	transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+	background-color: rgb(0, 0, 0, 0);
+	border-radius: 10%;
+}
 
-
-
-
-
-
-
-
+.btn:hover {
+	border: 1px solid #ffffff;
+}
 
 input {
 	position: relative;
@@ -246,6 +215,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h2 {
 	height: 600px;
 	width: 800px;
@@ -255,6 +225,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h3 {
 	height: 600px;
 	width: 800px;
@@ -264,7 +235,8 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#cul_h4 {
+
+/* #cul_h4 {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
@@ -272,7 +244,7 @@ input {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-}
+} */
 #cul_h5 {
 	height: 600px;
 	width: 800px;
@@ -282,6 +254,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h6 {
 	height: 600px;
 	width: 800px;
@@ -291,6 +264,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h7 {
 	height: 600px;
 	width: 800px;
@@ -300,6 +274,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h8 {
 	height: 600px;
 	width: 800px;
@@ -309,6 +284,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #cul_h9 {
 	height: 600px;
 	width: 800px;
@@ -318,6 +294,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h1 {
 	height: 600px;
 	width: 800px;
@@ -327,6 +304,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h2 {
 	height: 600px;
 	width: 800px;
@@ -336,6 +314,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h3 {
 	height: 600px;
 	width: 800px;
@@ -345,6 +324,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h4 {
 	height: 600px;
 	width: 800px;
@@ -354,6 +334,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h5 {
 	height: 600px;
 	width: 800px;
@@ -363,6 +344,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h6 {
 	height: 600px;
 	width: 800px;
@@ -372,6 +354,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h7 {
 	height: 600px;
 	width: 800px;
@@ -381,6 +364,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h8 {
 	height: 600px;
 	width: 800px;
@@ -390,6 +374,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #exhi_h9 {
 	height: 600px;
 	width: 800px;
@@ -399,6 +384,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h1 {
 	height: 600px;
 	width: 800px;
@@ -408,6 +394,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h2 {
 	height: 600px;
 	width: 800px;
@@ -417,6 +404,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h3 {
 	height: 600px;
 	width: 800px;
@@ -426,6 +414,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h4 {
 	height: 600px;
 	width: 800px;
@@ -435,6 +424,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h5 {
 	height: 600px;
 	width: 800px;
@@ -444,6 +434,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h6 {
 	height: 600px;
 	width: 800px;
@@ -453,6 +444,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h7 {
 	height: 600px;
 	width: 800px;
@@ -462,6 +454,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h8 {
 	height: 600px;
 	width: 800px;
@@ -471,6 +464,7 @@ input {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 #mus_h9 {
 	height: 600px;
 	width: 800px;
