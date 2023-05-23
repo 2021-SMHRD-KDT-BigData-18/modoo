@@ -686,7 +686,7 @@ button {
 	</div>
 
 	<script>
-	
+		
 		$(function() {
 			$(".cul5_1").click(function() {
 				$(".modal1").fadeIn();
@@ -832,7 +832,7 @@ button {
 			});
 		});
 	</script>
-<script type="text/javascript" src="/js/cul_5.js"></script>
+	<script type="text/javascript" src="/js/cul_5.js"></script>
 
 </body>
 </html>
