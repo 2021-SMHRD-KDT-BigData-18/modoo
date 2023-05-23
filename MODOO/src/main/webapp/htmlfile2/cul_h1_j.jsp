@@ -127,7 +127,7 @@ button {
 }
 
 .modal_close {
-	top:92%;
+	top: 92%;
 	background-color: gray;
 	left: 30%;
 	right: 30%;
@@ -135,6 +135,22 @@ button {
 	cursor: pointer;
 }
 
+#btn111 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#btnopen {
+	border-radius: 10px;
+	border: solid;
+	height: 350px;
+	width: 380px;
+}
 </style>
 </head>
 
@@ -158,8 +174,10 @@ button {
 
 		<div class="modal">
 			<div class="modal_content" title="클릭">
-				<input type="button" id="btn111" value="정보 보기" />
+
+				<input type="button" id="btn111" value="정보 보기" /> <br>
 				<div id="btnopen"></div>
+				<br>
 				<button class="modal_close">닫기</button>
 			</div>
 		</div>
