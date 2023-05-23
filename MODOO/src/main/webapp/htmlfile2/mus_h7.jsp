@@ -8,9 +8,9 @@
 <style>
 button {
 	font-size: 0px;
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(105,114,21);
 	border-radius: 50%;
 }
 
@@ -26,26 +26,26 @@ button {
 
 .mus7_1 {
 	/* 학동역 */
-	left: 479px;
-	top: 306px;
+	left: 476px;
+	top: 303px;
 }
 
 .mus7_2 {
 	/* 어린이대공원역 */
-	left: 542px;
-	top: 243px;
+	left: 540px;
+    top: 239px;
 }
 
 .mus7_3 {
 	/* 숭실대역 */
-	left: 374.5px;
-	top: 359.5px;
+	left: 371.5px;
+	top: 357.5px;
 }
 
 .mus7_4 {
 	/* 태릉입구역 */
-	left: 619px;
-	top: 136px;
+	left: 617px;
+    top: 132px;
 }
 
 .modal {

@@ -17,40 +17,40 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(181,80,11);
 	border-radius: 50%;
 }
 
 .mus6_1 {
-	left: 620px;
-	top: 135px;
+	left: 617px;
+	top: 133px;
 }
 
 .mus6_2 {
-	left: 517px;
-	top: 135px;
+	left: 515px;
+	top: 133px;
 }
 
 .mus6_3 {
-	left: 426px;
-	top: 259px;
+	left: 423px;
+	top: 256px;
 }
 
 .mus6_4 {
-	left: 338px;
-	top: 259px;
+	left: 335px;
+	top: 256px;
 }
 
 .mus6_5 {
-	left: 285px;
-	top: 259px;
+	left: 281px;
+	top: 256px
 }
 
 .mus6_6 {
-	left: 253px;
-	top: 78px;
+	left: 250px;
+	top: 73px;
 }
 
 .modal {

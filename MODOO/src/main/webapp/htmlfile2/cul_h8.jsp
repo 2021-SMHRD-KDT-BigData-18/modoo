@@ -19,7 +19,7 @@
 button {
 	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(229,30,110);
 	border-radius: 50%;
 }
 

@@ -18,34 +18,34 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(137,54,224);
 	border-radius: 50%;
 }
 
 .mus5_1 {
 	/* 광화문역 */
-	left: 353px;
-	top: 136px;
+	left: 351px;
+    top: 134px;
 }
 
 .mus5_2 {
 	/* 서대문역 */
-	left: 325.5px;
-	top: 163px;
+	left: 323.5px;
+    top: 161px;
 }
 
 .mus5_3 {
 	/* 충정로역 */
-	left: 325.5px;
-	top: 192px;
+	left: 323.5px;
+    top: 191px;
 }
 
 .mus5_4 {
 	/* 종로3가역 */
-	left: 381px;
-	top: 165px;
+	left: 379px;
+    top: 163px;
 }
 
 .modal {

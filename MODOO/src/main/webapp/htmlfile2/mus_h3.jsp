@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 <style>
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(255,115,0);
 	border-radius: 50%;
 }
 
@@ -25,50 +25,50 @@ button {
 
 .mus3_1 {
 	/* 안국역 */
-	left: 384.5px;
-	top: 148px;
+	left: 380.5px;
+	top: 140px;
 }
 
 .mus3_2 {
 	/* 압구정역 */
-	left: 448px;
-	top: 303px;
+	left: 438px;
+	top: 302px;
 }
 
 .mus3_3 {
 	/* 경복궁역 */
-	left: 383.5px;
-	top: 117px;
+	left: 380.5px;
+	top: 114px;
 }
 
 .mus3_4 {
 	/* 독립문역 */
-	left: 364px;
-	top: 96.5px;
+	left: 361px;
+	top: 93.5px;
 }
 
 .mus3_5 {
 	/* 양재역 */
-	left: 468.5px;
-	top: 425.5px;
+	left: 466.5px;
+	top: 424.5px;
 }
 
 .mus3_6 {
 	/* 종로3가역 */
-	left: 383.5px;
-	top: 165px;
+	left: 380.5px;
+	top: 162px;
 }
 
 .mus3_7 {
 	/* 을지로3가역 */
-	left: 383.5px;
-	top: 193px;
+	left: 381.5px;
+	top: 191px;
 }
 
 .mus3_8 {
 	/* 동대입구역 */
-	left: 427px;
-	top: 221px;
+	left: 425px;
+	top: 218px
 }
 
 .modal {
