@@ -36,7 +36,7 @@
 	try {
 		Class.forName("oracle.jdbc.OracleDriver");
 		conn = DriverManager.getConnection(Url, User, Pass);
-		String sql = "select name, addr, home, pic, tel, sub from T_CULTURE where sub = '금천구청역'";
+		String sql = "select name, addr, home, pic, tel, sub from T_CULTURE where sub = '동묘앞역'";
 		psmt = conn.prepareStatement(sql);
 		rs = psmt.executeQuery(sql);
 		rs.next();
