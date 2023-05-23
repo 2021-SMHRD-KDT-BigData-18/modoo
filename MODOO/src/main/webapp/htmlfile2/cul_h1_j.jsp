@@ -145,12 +145,6 @@ button {
 	cursor: pointer;
 }
 
-#btnopen {
-	border-radius: 10px;
-	border: solid;
-	height: 350px;
-	width: 380px;
-}
 </style>
 </head>
 
