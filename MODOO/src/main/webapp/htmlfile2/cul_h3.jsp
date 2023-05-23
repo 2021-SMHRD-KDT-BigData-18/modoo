@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
 <style>
 button {
@@ -135,41 +142,45 @@ button {
 	cursor: pointer;
 }
 </style>
+</head>
+<body>
+	<div id="cul_h3">
+		<button class="cul3_1"></button>
+		<button class="cul3_2"></button>
+		<button class="cul3_3"></button>
+		<button class="cul3_4"></button>
+		<button class="cul3_5"></button>
+		<button class="cul3_6"></button>
+		<button class="cul3_7"></button>
+		<button class="cul3_8"></button>
+		<button class="cul3_9"></button>
+		<button class="cul3_12"></button>
+		<button class="cul3_13"></button>
+		<button class="cul3_14"></button>
+		<button class="cul3_15"></button>
+		<button class="cul3_16"></button>
+		<button class="cul3_17"></button>
 
-<div id="cul_h3">
-	<button class="cul3_1"></button>
-	<button class="cul3_2"></button>
-	<button class="cul3_3"></button>
-	<button class="cul3_4"></button>
-	<button class="cul3_5"></button>
-	<button class="cul3_6"></button>
-	<button class="cul3_7"></button>
-	<button class="cul3_8"></button>
-	<button class="cul3_9"></button>
-	<button class="cul3_12"></button>
-	<button class="cul3_13"></button>
-	<button class="cul3_14"></button>
-	<button class="cul3_15"></button>
-	<button class="cul3_16"></button>
-	<button class="cul3_17"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

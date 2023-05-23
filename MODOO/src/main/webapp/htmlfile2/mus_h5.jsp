@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
 <style>
 #mus_h5 {
@@ -14,7 +21,7 @@ button {
 	padding: 2px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .mus5_1 {
@@ -69,31 +76,35 @@ button {
 	cursor: pointer;
 }
 </style>
+</head>
+<body>
+	<div id="mus_h5">
+		<button class="mus5_1"></button>
+		<button class="mus5_2"></button>
+		<button class="mus5_3"></button>
+		<button class="mus5_4"></button>
 
-<div id="mus_h5">
-	<button class="mus5_1"></button>
-	<button class="mus5_2"></button>
-	<button class="mus5_3"></button>
-	<button class="mus5_4"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
+
 	</div>
 
-</div>
+	<script>
+		$(function() {
 
-<script>
-	$(function() {
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

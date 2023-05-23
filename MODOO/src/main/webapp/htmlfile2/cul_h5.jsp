@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 #cul_h5 {
 	height: 600px;
@@ -152,7 +159,8 @@ button {
 	cursor: pointer;
 }
 </style>
-
+</head>
+<body>
 <div id="cul_h5">
 	<button class="cul5_1"></button>
 	<button class="cul5_2"></button>
@@ -193,3 +201,6 @@ button {
 
 	});
 </script>
+
+</body>
+</html>

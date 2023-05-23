@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 #cul_h2 {
 	height: 600px;
@@ -84,41 +91,46 @@ button {
 	cursor: pointer;
 }
 </style>
-<div id="cul_h2">
-	<button class="cul_h2_1"></button>
-	<!-- 합정 -->
-	<button class="cul_h2_2"></button>
-	<!-- 신촌 -->
-	<button class="cul_h2_3"></button>
-	<!-- 충정로 -->
-	<button class="cul_h2_4"></button>
-	<!-- 을지로3가 -->
-	<button class="cul_h2_5"></button>
-	<!-- 성수 -->
-	<button class="cul_h2_6"></button>
-	<!-- 용두 -->
-	<button class="cul_h2_7"></button>
-	<!-- 잠실 -->
-	<button class="cul_h2_8"></button>
-	<!-- 삼성 -->
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+</head>
+<body>
+	<div id="cul_h2">
+		<button class="cul_h2_1"></button>
+		<!-- 합정 -->
+		<button class="cul_h2_2"></button>
+		<!-- 신촌 -->
+		<button class="cul_h2_3"></button>
+		<!-- 충정로 -->
+		<button class="cul_h2_4"></button>
+		<!-- 을지로3가 -->
+		<button class="cul_h2_5"></button>
+		<!-- 성수 -->
+		<button class="cul_h2_6"></button>
+		<!-- 용두 -->
+		<button class="cul_h2_7"></button>
+		<!-- 잠실 -->
+		<button class="cul_h2_8"></button>
+		<!-- 삼성 -->
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
 
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

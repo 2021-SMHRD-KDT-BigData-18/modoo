@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 button {
 	padding: 4.5px;
@@ -87,7 +94,6 @@ button {
 	left: 561px;
 	top: 46px;
 }
-
 .modal {
 	position: absolute;
 	width: 100%;
@@ -116,38 +122,42 @@ button {
 	cursor: pointer;
 }
 </style>
+</head>
+<body>
+	<div id="cul_h7">
+		<button class="cul7_1"></button>
+		<button class="cul7_2"></button>
+		<button class="cul7_6"></button>
+		<button class="cul7_7"></button>
+		<button class="cul7_9"></button>
+		<button class="cul7_10"></button>
+		<button class="cul7_11"></button>
+		<button class="cul7_12"></button>
+		<button class="cul7_13"></button>
+		<button class="cul7_14"></button>
+		<button class="cul7_15"></button>
+		<button class="cul7_16"></button>
 
-<div id="cul_h7">
-	<button class="cul7_1"></button>
-	<button class="cul7_2"></button>
-	<button class="cul7_6"></button>
-	<button class="cul7_7"></button>
-	<button class="cul7_9"></button>
-	<button class="cul7_10"></button>
-	<button class="cul7_11"></button>
-	<button class="cul7_12"></button>
-	<button class="cul7_13"></button>
-	<button class="cul7_14"></button>
-	<button class="cul7_15"></button>
-	<button class="cul7_16"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

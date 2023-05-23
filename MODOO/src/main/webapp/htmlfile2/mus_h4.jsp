@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
 <style>
 #mus_h4 {
@@ -14,7 +21,7 @@ button {
 	padding: 2px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .mus4_1 {
@@ -85,33 +92,37 @@ button {
 	cursor: pointer;
 }
 </style>
+</head>
+<body>
+	<div id="mus_h4">
+		<button class="mus4_1" name="혜화"></button>
+		<button class="mus4_2" name="성신여대입구"></button>
+		<button class="mus4_3" name="한성대입구"></button>
+		<button class="mus4_4" name="쌍문"></button>
+		<button class="mus4_5" name="이촌"></button>
+		<button class="mus4_6" name="명동"></button>
+		<button class="mus4_7" name="삼각지"></button>
+		<button class="mus4_8" name="숙대입구"></button>
 
-<div id="mus_h4">
-	<button class="mus4_1" name="혜화"></button>
-	<button class="mus4_2" name="성신여대입구"></button>
-	<button class="mus4_3" name="한성대입구"></button>
-	<button class="mus4_4" name="쌍문"></button>
-	<button class="mus4_5" name="이촌"></button>
-	<button class="mus4_6" name="명동"></button>
-	<button class="mus4_7" name="삼각지"></button>
-	<button class="mus4_8" name="숙대입구"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

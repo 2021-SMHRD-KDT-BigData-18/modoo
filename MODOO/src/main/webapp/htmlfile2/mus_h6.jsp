@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 #mus_h6 {
 	height: 600px;
@@ -13,7 +20,7 @@ button {
 	padding: 2px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .mus6_1 {
@@ -74,31 +81,35 @@ button {
 	cursor: pointer;
 }
 </style>
+</head>
+<body>
+	<div id="mus_h6">
+		<button class="mus6_1" name="태릉입구"></button>
+		<button class="mus6_2" name="월곡"></button>
+		<button class="mus6_3" name="한강진"></button>
+		<button class="mus6_4" name="효창공원앞"></button>
+		<button class="mus6_5" name="상수"></button>
+		<button class="mus6_6" name="독바위"></button>
 
-<div id="mus_h6">
-	<button class="mus6_1" name="태릉입구"></button>
-	<button class="mus6_2" name="월곡"></button>
-	<button class="mus6_3" name="한강진"></button>
-	<button class="mus6_4" name="효창공원앞"></button>
-	<button class="mus6_5" name="상수"></button>
-	<button class="mus6_6" name="독바위"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>
