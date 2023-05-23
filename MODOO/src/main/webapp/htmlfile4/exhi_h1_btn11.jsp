@@ -30,25 +30,27 @@
 	String home = null;
 	String tel = null;
 	String pic = null;
+	String sub = null;
 	%>
 
 	<%
 	try {
-		Class.forName("oracle.jdbc.OracleDriver");
-		conn = DriverManager.getConnection(Url, User, Pass);
-		String sql = "select name, addr, home, pic, tel, sub from T_EXHI where sub = '종로3가역'";
-		psmt = conn.prepareStatement(sql);
-		rs = psmt.executeQuery(sql);
-		rs.next();
-		name = rs.getNString(1);
-		addr = rs.getNString(2);
-		home = rs.getNString(3);
-		pic = rs.getNString(4);
-		tel = rs.getNString(5);
+			Class.forName("oracle.jdbc.OracleDriver");
+			conn = DriverManager.getConnection(Url, User, Pass);
+			String sql = "select name, addr, home, pic, tel, sub from T_EXHI where sub = '종로3가역'";
+			psmt = conn.prepareStatement(sql);
+			rs = psmt.executeQuery(sql);
+			rs.next();
+			name = rs.getNString(1);
+			addr = rs.getNString(2);
+			home = rs.getNString(3);
+			pic = rs.getNString(4);
+			tel = rs.getNString(5);
+			sub = rs.getNString(6);
 
-	} catch (SQLException e) {
-		e.printStackTrace();
-	}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	%>
 	<%
 	if (home == null) {
@@ -57,16 +59,17 @@
 	if (tel == null) {
 		tel = "";
 	}
-	if (pic == null) {
-		pic = "";
+	if (addr == null) {
+		addr = "";
 	}
 	%>
 	<div id="container">
+		<p id="sub"><%=sub%></p>
 		<p id="name"><%=name%></p>
 		<img src="<%=pic%>" width="300" height="200">
 		<p id="addr"><%=addr%></p>
 		<p id="tel"><%=tel%></p>
-		<p id="home"><%=home%></p>
+		<a href="<%=home%>">홈페이지 이동</a>
 	</div>
 
 </body>

@@ -1,0 +1,80 @@
+$(function() {
+	$("#exhi_h4_btn1").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn1.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open1").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn2").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn2.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open2").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn3").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn3.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open3").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn4").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn4.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open4").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn5").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn5.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open5").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn6").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn6.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open6").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn7").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn7.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open7").html(data);
+				}
+		});
+	})
+})
+$(function() {
+	$("#exhi_h4_btn8").click(function() {
+		$.ajax({
+			type: 'post', url:
+				'/htmlfile4/exhi_h4_btn8.jsp', dataType: 'html', success: function(data) {
+					$("#btn_open8").html(data);
+				}
+		});
+	})
+})

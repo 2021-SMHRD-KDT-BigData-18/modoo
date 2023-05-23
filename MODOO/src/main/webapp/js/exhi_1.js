@@ -12,7 +12,7 @@ $(function() {
 	$("#exhi_h1_btn2").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile/exhi_h1_btn2.jsp', dataType: 'html', success: function(data) {
+				'/htmlfile4/exhi_h1_btn2.jsp', dataType: 'html', success: function(data) {
 					$("#btn_open2").html(data);
 				}
 		});
