@@ -22,7 +22,7 @@
             <input   class="btn" type="button" id="p1" value="공연장" />
         </div>
         <div class="butnexhibox">
-            <input  class="btn" type="button" id="p2" value="전시회" />
+            <input  class="btn" type="button" id="p2" value="전시관" />
         </div>
         <div class="butnmusbox">
             <input  class="btn" type="button" id="p3" value="박물관" />
