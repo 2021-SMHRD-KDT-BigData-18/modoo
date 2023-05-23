@@ -100,6 +100,7 @@ button {
 }
 
 .modal_content {
+	font-weight: bold;
 	width: 400px;
 	height: 550px;
 	background: #fff;
@@ -113,7 +114,6 @@ button {
 	box-sizing: border-box;
 	padding: 74px 0;
 	line-height: 23px;
-	cursor: pointer;
 }
 
 .modal_close {
@@ -294,6 +294,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn2 {
@@ -303,6 +304,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn3 {
@@ -312,6 +314,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn4 {
@@ -321,6 +324,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn5 {
@@ -330,6 +334,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn6 {
@@ -339,6 +344,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn7 {
@@ -348,6 +354,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn8 {
@@ -357,6 +364,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn9 {
@@ -366,6 +374,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn10 {
@@ -375,6 +384,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn11 {
@@ -384,6 +394,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #cul_h1_btn12 {
@@ -393,6 +404,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 #cul_h1_btn13 {
 	position: absolute;
@@ -401,6 +413,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 #cul_h1_btn14 {
 	position: absolute;
@@ -409,6 +422,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 #cul_h1_btn15 {
 	position: absolute;
@@ -417,6 +431,7 @@ button {
 	left: 40%;
 	right: 40%;
 	border-radius: 10px;
+	cursor: pointer;
 }
 </style>
 </head>
