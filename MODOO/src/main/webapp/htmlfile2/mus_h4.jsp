@@ -20,13 +20,13 @@
 button {
 	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(44,158,222);
+	background-color: rgb(44, 158, 222);
 	border-radius: 50%;
 }
 
 .mus4_1 {
 	left: 414px;
-    top: 139px;
+	top: 139px;
 }
 
 .mus4_2 {
@@ -46,36 +46,26 @@ button {
 
 .mus4_5 {
 	left: 398px;
-    top: 295px;
+	top: 295px;
 }
 
 .mus4_6 {
 	left: 378px;
-    top: 217px;
+	top: 217px;
 }
 
 .mus4_7 {
 	left: 382px;
-    top: 255px;
+	top: 255px;
 }
 
 .mus4_8 {
 	left: 364px;
-    top: 253px;
-}
-
-.modal {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.8);
-	top: 0;
-	left: 0;
-	display: none;
-	z-index: 999;
+	top: 253px;
 }
 
 .modal_content {
+	font-weight: bold;
 	width: 400px;
 	height: 550px;
 	background: #fff;
@@ -89,6 +79,182 @@ button {
 	box-sizing: border-box;
 	padding: 74px 0;
 	line-height: 23px;
+}
+
+.modal_close {
+	top: 92%;
+	background-color: gray;
+	left: 30%;
+	right: 30%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.modal1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal3 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal5 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal6 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal7 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+.modal8 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 999;
+}
+
+#mus_h4_btn1 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn2 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn3 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn4 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn5 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn6 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn7 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#mus_h4_btn8 {
+	position: absolute;
+	top: 5%;
+	background-color: gray;
+	left: 40%;
+	right: 40%;
+	border-radius: 10px;
 	cursor: pointer;
 }
 </style>
@@ -104,25 +270,129 @@ button {
 		<button class="mus4_7" name="삼각지"></button>
 		<button class="mus4_8" name="숙대입구"></button>
 
-		<div class="modal">
+		<div class="modal1">
 			<div class="modal_content" title="클릭">
-				ㅇㅅㅇ <br> ㅇㅁㅇ
+				<input type="button" id="mus_h4_btn1" value="정보 보기" />
+				<div id="btn_open1"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal2">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn2" value="정보 보기" />
+				<div id="btn_open2"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal3">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn3" value="정보 보기" />
+				<div id="btn_open3"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal4">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn4" value="정보 보기" />
+				<div id="btn_open4"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal5">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn5" value="정보 보기" />
+				<div id="btn_open5"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal6">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn6" value="정보 보기" />
+				<div id="btn_open6"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal7">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn7" value="정보 보기" />
+				<div id="btn_open7"></div>
+				<button class="modal_close">닫기</button>
+			</div>
+		</div>
+		<div class="modal8">
+			<div class="modal_content" title="클릭">
+				<input type="button" id="mus_h4_btn8" value="정보 보기" />
+				<div id="btn_open8"></div>
+				<button class="modal_close">닫기</button>
 			</div>
 		</div>
 	</div>
 	<script>
 		$(function() {
-
-			$("button").click(function() {
-				$(".modal").fadeIn();
+			$(".mus4_1").click(function() {
+				$(".modal1").fadeIn();
 			});
-
-			$(".modal_content").click(function() {
-				$(".modal").fadeOut();
+			$(".modal_close").click(function() {
+				$(".modal1").fadeOut();
 			});
-
+		});
+		$(function() {
+			$(".mus4_2").click(function() {
+				$(".modal2").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal2").fadeOut();
+			});
+		});
+		$(function() {
+			$(".mus4_3").click(function() {
+				$(".modal3").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal3").fadeOut();
+			});
+		});
+		$(function() {
+			$(".mus4_4").click(function() {
+				$(".modal4").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal4").fadeOut();
+			});
+		});
+		$(function() {
+			$(".mus4_5").click(function() {
+				$(".modal5").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal5").fadeOut();
+			});
+		});
+		$(function() {
+			$(".mus4_6").click(function() {
+				$(".modal6").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal6").fadeOut();
+			});
+		});
+		$(function() {
+			$(".mus4_7").click(function() {
+				$(".modal7").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal7").fadeOut();
+			});
+		});
+		$(function() {
+			$(".mus4_8").click(function() {
+				$(".modal8").fadeIn();
+			});
+			$(".modal_close").click(function() {
+				$(".modal8").fadeOut();
+			});
 		});
 	</script>
-
+	<script type="text/javascript" src="/js/mus_4.js"></script>
 </body>
 </html>
