@@ -39,10 +39,10 @@ $(function() {
 	})
 })
 $(function() {
-	$("#exhi_h3_btn5").click(function() {
+	$("#mus_h3_btn5").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile5/exhi_h3_btn5.jsp', dataType: 'html', success: function(data) {
+				'/htmlfile5/mus_h3_btn5.jsp', dataType: 'html', success: function(data) {
 					$("#btn_open5").html(data);
 				}
 		});
