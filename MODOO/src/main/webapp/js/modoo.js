@@ -103,7 +103,7 @@ $(function() {
 	$("#cul_s2").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile2/cul_h2.html', dataType: 'html', success: function(data) {
+				'/htmlfile2/cul_h2.jsp', dataType: 'html', success: function(data) {
 					$("#boxbox5").html(data);
 				}
 		});
