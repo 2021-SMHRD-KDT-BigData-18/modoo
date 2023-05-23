@@ -98,7 +98,7 @@ button {
 
 .cul3_13 {
 	/* 대치역 */
-	left: 520px px;
+	left: 520px;
 	top: 417px;
 }
 
