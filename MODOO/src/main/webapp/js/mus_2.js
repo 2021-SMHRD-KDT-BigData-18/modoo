@@ -42,7 +42,7 @@ $(function() {
 	$("#exhi_h2_btn5").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile4/exhi_h2_btn5.jsp', dataType: 'html', success: function(data) {
+				'/htmlfile5/exhi_h2_btn5.jsp', dataType: 'html', success: function(data) {
 					$("#btn_open5").html(data);
 				}
 		});
@@ -102,7 +102,7 @@ $(function() {
 	$("#exhi_h2_btn11").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile4/exhi_h2_btn11.jsp', dataType: 'html', success: function(data) {
+				'/htmlfile5/exhi_h2_btn11.jsp', dataType: 'html', success: function(data) {
 					$("#btn_open11").html(data);
 				}
 		});
@@ -162,7 +162,7 @@ $(function() {
 	$("#exhi_h2_btn17").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile4/exhi_h2_btn17.jsp', dataType: 'html', success: function(data) {
+				'/htmlfile5/exhi_h2_btn17.jsp', dataType: 'html', success: function(data) {
 					$("#btn_open17").html(data);
 				}
 		});
@@ -222,7 +222,7 @@ $(function() {
 	$("#exhi_h2_btn23").click(function() {
 		$.ajax({
 			type: 'post', url:
-				'/htmlfile4/exhi_h2_btn23.jsp', dataType: 'html', success: function(data) {
+				'/htmlfile5/exhi_h2_btn23.jsp', dataType: 'html', success: function(data) {
 					$("#btn_open23").html(data);
 				}
 		});
