@@ -18,10 +18,10 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .btn1 {
@@ -170,9 +170,8 @@ button {
 		<div class="modal">
 			<div class="modal_content" title="클릭">
 
-				<input type="button" id="btn111" value="정보 보기" /> <br>
+				<input type="button" id="btn111" value="정보 보기" />
 				<div id="btnopen"></div>
-				<br>
 				<button class="modal_close">닫기</button>
 			</div>
 		</div>

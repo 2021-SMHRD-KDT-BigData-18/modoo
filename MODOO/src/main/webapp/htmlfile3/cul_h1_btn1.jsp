@@ -13,6 +13,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+</style>
 </head>
 <body>
 	<%
@@ -24,11 +26,11 @@
 	PreparedStatement psmt = null;
 	ResultSet rs = null;
 
-	String name = "aa";
-	String addr = "bb";
-	String home = "cc";
-	String tel = "dd";
-	String pic = "";
+	String name = null;
+	String addr = null;
+	String home = null;
+	String tel = null;
+	String pic = null;
 	%>
 
 	<%
@@ -49,13 +51,18 @@
 		e.printStackTrace();
 	}
 	%>
+	<%
+	if (home == null) {
+		home = "";
+	}
+	%>
+	<div id="container">
+		<p id="name"><%=name%></p>
+		<img src="<%=pic%>" width="300" height="200">
+		<p id="addr"><%=addr%></p>
+		<p id="tel"><%=tel%></p>
+		<p id="home"><%=home%></p>
+	</div>
 
-	<ul>
-		<li id="name"><%=name%></li>
-		<img src="<%=pic%>" width="300" height="250">
-		<li id="addr"><%=addr%></li>
-		<li id="home"><%=home %></li>
-		<li id="tel"><%=tel%></li>
-	</ul>
 </body>
 </html>
