@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 <style>
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 #exhi_h3 {
@@ -25,81 +25,82 @@ button {
 
 .exhi3_1 {
 	/* 안국역 */
-	left: 384.5px;
-	top: 148px;
+	left: 380.5px;
+	top: 141px;
 }
 
 .exhi3_2 {
 	/* 압구정역 */
-	left: 442px;
-    top: 303px;
+	left: 439px;
+	top: 301px;
 }
 
 .exhi3_3 {
 	/* 남부터미널역 */
-	left: 448px;
-	top: 421px;
+	left: 446px;
+	top: 420px;
 }
 
 .exhi3_4 {
 	/* 경복궁역 */
-	left: 383.5px;
-	top: 117px;
+	left: 380.5px;
+	top: 116px;
 }
 
 .exhi3_5 {
 	/* 충무로역 */
-	left: 400px;
-	top: 220px;
+	left: 397px;
+	top: 218px;
 }
 
 .exhi3_6 {
 	/* 독립문역 */
-	left: 364px;
-	top: 96.5px;
+	left: 361px;
+	top: 95.5px;
 }
 
 .exhi3_7 {
 	/* 고속터미널역 */
-	left: 442px;
-	top: 340.5px;
+	left: 439px;
+	top: 339.5px;
 }
 
 .exhi3_8 {
 	/* 양재역 */
-	left: 468.5px;
-	top: 425.5px;
+	left: 465.5px;
+	top: 424.5px;
 }
 
 .exhi3_9 {
 	/* 신사역 */
-	left: 442px;
-	top: 316px;
+	left: 440px;
+	top: 315px;
 }
 
 .exhi3_10 {
 	/* 도곡역 */
-	left: 498px;
-	top: 425.5px;
+	left: 495px;
+	top: 424.5px;
 }
 
 .exhi3_11 {
 	/* 홍제역 */
-	left: 312px;
-	top: 96.5px;
+	left: 311px;
+	top: 95.5px;
 }
 
 .exhi3_12 {
 	/* 종로3가역 */
-	left: 383.5px;
-	top: 165px;
+	left: 380.5px;
+	top: 163px;
 }
 
 .exhi3_13 {
 	/* 을지로3가역 */
-	left: 383.5px;
-	top: 193px;
+	left: 380.5px;
+	top: 192px;
 }
+
 .modal {
 	position: absolute;
 	width: 100%;

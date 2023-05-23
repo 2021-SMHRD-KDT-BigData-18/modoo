@@ -684,7 +684,7 @@ button {
 			});
 		});
 	</script>
-	<script type="text/javascript" src="/js/subway.js"></script>
+	<script type="text/javascript" src="/js/cul_1.js"></script>
 
 </body>
 </html>

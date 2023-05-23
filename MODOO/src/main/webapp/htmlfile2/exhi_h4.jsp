@@ -17,50 +17,50 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
 }
 
 .exhi4_1 {
-	left: 417px;
-	top: 142px;
+	left: 413px;
+	top: 139px;
 }
 
 .exhi4_2 {
-	left: 437px;
-	top: 105px;
+	left: 435px;
+	top: 102px;
 }
 
 .exhi4_3 {
-	left: 417px;
-	top: 122px;
+	left: 414px;
+	top: 121px;
 }
 
 .exhi4_4 {
-	left: 560px;
-	top: 105px;
+	left: 557px;
+	top: 102px;
 }
 
 .exhi4_5 {
-	left: 401px;
-	top: 301px;
+	left: 398px;
+    top: 297px;
 }
 
 .exhi4_6 {
-	left: 382px;
-	top: 220px;
+	left: 378px;
+	top: 217px;
 }
 
 .exhi4_7 {
-	left: 365px;
-	top: 224px;
+	left: 362px;
+	top: 223px;
 }
 
 .exhi4_8 {
-	left: 385px;
-	top: 259px;
+	left: 382px;
+    top: 255px;
 }
 
 .modal {
@@ -92,25 +92,24 @@ button {
 }
 </style>
 </head>
-<body>
-	<div id="exhi_h4">
-		<button class="exhi4_1" name="혜화"></button>
-		<button class="exhi4_2" name="성신여대입구"></button>
-		<button class="exhi4_3" name="한성대입구"></button>
-		<button class="exhi4_4" name="쌍문"></button>
-		<button class="exhi4_5" name="이촌"></button>
-		<button class="exhi4_6" name="명동"></button>
-		<button class="exhi4_7" name="회현"></button>
-		<button class="exhi4_8" name="삼각지"></button>
+<div id="exhi_h4">
+	<button class="exhi4_1" name="혜화"></button>
+	<button class="exhi4_2" name="성신여대입구"></button>
+	<button class="exhi4_3" name="한성대입구"></button>
+	<button class="exhi4_4" name="쌍문"></button>
+	<button class="exhi4_5" name="이촌"></button>
+	<button class="exhi4_6" name="명동"></button>
+	<button class="exhi4_7" name="회현"></button>
+	<button class="exhi4_8" name="삼각지"></button>
 
 
-		<div class="modal">
-			<div class="modal_content" title="클릭">
-				ㅇㅅㅇ <br> ㅇㅁㅇ
-			</div>
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
 		</div>
-
 	</div>
+
+</div>
 
 
 	<script>

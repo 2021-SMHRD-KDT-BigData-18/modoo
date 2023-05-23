@@ -17,7 +17,7 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
@@ -25,80 +25,80 @@ button {
 
 .exhi5_1 {
 	/* 광화문역 */
-	left: 353px;
-	top: 136px;
+	left: 351px;
+	top: 134px;
 }
 
 .exhi5_2 {
 	/* 서대문역 */
-	left: 325.5px;
-	top: 162px;
+	left: 323.5px;
+	top: 160px;
 }
 
 .exhi5_3 {
 	/* 충정로역 */
-	left: 325.5px;
-	top: 193px;
+	left: 323.5px;
+	top: 191px;
 }
 
 .exhi5_4 {
 	/* 종로3가역 */
-	left: 381px;
-	top: 164px;
+	left: 378px;
+	top: 162px;
+}
+
+.exhi5_5 {
+	/* 오목교역 */
+	left: 234.5px;
+	top: 303px;
+}
+
+.exhi5_6 {
+	/* 장한평역 */
+	left: 555px;
+	top: 199px;
+}
+
+.exhi5_7 {
+	/* 을지로4가역 */
+	left: 397.5px;
+	top: 188px;
+}
+
+.exhi5_8 {
+	/* 왕십리역 */
+	left: 484.5px;
+	top: 191.5px;
 }
 
 .exhi5_9 {
-	/* 오목교역 */
-	left: 237.5px;
-	top: 306px;
-}
-
-.exhi5_14 {
-	/* 장한평역 */
-	left: 558px;
-	top: 202px;
-}
-
-.exhi5_18 {
-	/* 을지로4가역 */
-	left: 399.5px;
-	top: 190px;
-}
-
-.exhi5_20 {
-	/* 왕십리역 */
-	left: 490.5px;
-	top: 192.5px;
-}
-
-.exhi5_21 {
 	/* 발산역 */
-	left: 158.5px;
-	top: 250px;
+	left: 155.5px;
+	top: 249px;
 }
 
-.exhi5_22 {
+.exhi5_10 {
 	/* 마장역 */
-	left: 517px;
-	top: 193.5px;
+	left: 515px;
+	top: 191.5px;
 }
 
-.exhi5_23 {
+.exhi5_11 {
 	/* 동대문역사문화공원역 */
-	left: 416px;
-	top: 193px;
+	left: 414px;
+	top: 192px;
 }
 
-.exhi5_24 {
+.exhi5_12 {
 	/* 여의도역 */
-	left: 325.5px;
-	top: 291px;
+	left: 323.5px;
+	top: 289px;
 }
 
-.exhi5_25 {
+.exhi5_13 {
 	/* 마곡역 */
-	left: 158.5px;
-	top: 227px;
+	left: 155.5px;
+	top: 225px;
 }
 
 .modal {
@@ -132,26 +132,26 @@ button {
 </head>
 <body>
 	<div id="exhi_h5">
-		<button class="exhi5_1"></button>
-		<button class="exhi5_2"></button>
-		<button class="exhi5_3"></button>
-		<button class="exhi5_4"></button>
-		<button class="exhi5_9"></button>
-		<button class="exhi5_14"></button>
-		<button class="exhi5_18"></button>
-		<button class="exhi5_20"></button>
-		<button class="exhi5_21"></button>
-		<button class="exhi5_22"></button>
-		<button class="exhi5_23"></button>
-		<button class="exhi5_24"></button>
-		<button class="exhi5_25"></button>
+	<button class="exhi5_1"></button>
+	<button class="exhi5_2"></button>
+	<button class="exhi5_3"></button>
+	<button class="exhi5_4"></button>
+	<button class="exhi5_5"></button>
+	<button class="exhi5_6"></button>
+	<button class="exhi5_7"></button>
+	<button class="exhi5_8"></button>
+	<button class="exhi5_9"></button>
+	<button class="exhi5_10"></button>
+	<button class="exhi5_11"></button>
+	<button class="exhi5_12"></button>
+	<button class="exhi5_13"></button>
 
-		<div class="modal">
-			<div class="modal_content" title="클릭">
-				ㅇㅅㅇ <br> ㅇㅁㅇ
-			</div>
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
 		</div>
 	</div>
+</div>
 
 	<script>
 		$(function() {

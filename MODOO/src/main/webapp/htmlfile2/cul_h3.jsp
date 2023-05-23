@@ -78,37 +78,37 @@ button {
 	top: 313px;
 }
 
-.cul3_12 {
+.cul3_10 {
 	/* 종로3가역 */
 	left: 380px;
 	top: 162px;
 }
 
-.cul3_13 {
+.cul3_11 {
 	/* 을지로3가역 */
 	left: 380px;
 	top: 190px;
 }
 
-.cul3_14 {
+.cul3_12 {
 	/* 동대입구역 */
 	left: 423px;
 	top: 218px;
 }
 
-.cul3_15 {
+.cul3_13 {
 	/* 대치역 */
 	left: 520px px;
 	top: 417px;
 }
 
-.cul3_16 {
+.cul3_14 {
 	/* 일원역 */
 	left: 555px;
 	top: 386px;
 }
 
-.cul3_17 {
+.cul3_15 {
 	/* 매봉역 */
 	left: 480px;
 	top: 422px;
@@ -154,12 +154,12 @@ button {
 		<button class="cul3_7"></button>
 		<button class="cul3_8"></button>
 		<button class="cul3_9"></button>
+		<button class="cul3_10"></button>
+		<button class="cul3_11"></button>
 		<button class="cul3_12"></button>
 		<button class="cul3_13"></button>
 		<button class="cul3_14"></button>
 		<button class="cul3_15"></button>
-		<button class="cul3_16"></button>
-		<button class="cul3_17"></button>
 
 		<div class="modal">
 			<div class="modal_content" title="클릭">

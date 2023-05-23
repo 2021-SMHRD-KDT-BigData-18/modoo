@@ -18,55 +18,55 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
 }
 
 .btn1 {
-	left: 195px;
-	top: 176px;
+	left: 191px;
+	top: 172px;
 }
 
 .btn2 {
-	left: 199px;
-	top: 196px;
+	left: 196px;
+	top: 194px;
 }
 
 .btn3 {
-	left: 229px;
-	top: 283px;
+	left: 227px;
+	top: 280px;
 }
 
 .btn4 {
-	left: 251px;
-	top: 283px;
+	left: 248px;
+	top: 280px;
 }
 
 .btn5 {
-	left: 367px;
-	top: 327px;
+	left: 366px;
+	top: 326px;
 }
 
 .btn6 {
-	left: 429px;
-	top: 333px;
+	left: 427px;
+	top: 330px;
 }
 
 .btn7 {
-	left: 469px;
-	top: 367px;
+	left: 466px;
+	top: 365px;
 }
 
 .btn8 {
-	left: 492px;
-	top: 369px;
+	left: 489px;
+    top: 367px;
 }
 
 .btn9 {
-	left: 513px;
-	top: 369px;
+	left: 511px;
+    top: 367px;
 }
 
 .modal {
@@ -100,22 +100,22 @@ button {
 </head>
 <body>
 	<div id="exhi_h9">
-		<button class="btn1" name="마곡나루역"></button>
-		<button class="btn2" name="양천향교역"></button>
-		<button class="btn3" name="신목동역"></button>
-		<button class="btn4" name="선유도역"></button>
-		<button class="btn5" name="노들역"></button>
-		<button class="btn6" name="신반포역"></button>
-		<button class="btn7" name="신논현역"></button>
-		<button class="btn8" name="선정릉역"></button>
-		<button class="btn9" name="봉은사역"></button>
+	<button class="btn1" name="마곡나루역"></button>
+	<button class="btn2" name="양천향교역"></button>
+	<button class="btn3" name="신목동역"></button>
+	<button class="btn4" name="선유도역"></button>
+	<button class="btn5" name="노들역"></button>
+	<button class="btn6" name="신반포역"></button>
+	<button class="btn7" name="신논현역"></button>
+	<button class="btn8" name="선정릉역"></button>
+	<button class="btn9" name="봉은사역"></button>
 
-		<div class="modal">
-			<div class="modal_content" title="클릭">
-				ㅇㅅㅇ <br> ㅇㅁㅇ
-			</div>
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
 		</div>
 	</div>
+</div>
 
 	<script>
 		$(function() {

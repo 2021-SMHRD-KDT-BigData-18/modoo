@@ -17,40 +17,40 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
 }
 
 .exhi6_1 {
-	left: 620px;
-	top: 135px;
+	left: 617px;
+	top: 133px;
 }
 
 .exhi6_2 {
-	left: 493px;
-	top: 135px;
+	left: 496px;
+	top: 133px;
 }
 
 .exhi6_3 {
-	left: 426px;
-	top: 259px;
+	left: 424px;
+	top: 256px;
 }
 
 .exhi6_4 {
-	left: 404px;
-	top: 259px;
+	left: 401px;
+	top: 256px;
 }
 
 .exhi6_5 {
-	left: 338px;
-	top: 259px;
+	left: 336px;
+	top: 256px;
 }
 
 .exhi6_6 {
-	left: 285px;
-	top: 259px;
+	left: 280px;
+	top: 256px;
 }
 
 .exhi6_7 {
@@ -59,8 +59,8 @@ button {
 }
 
 .exhi6_8 {
-	left: 241px;
-	top: 172px;
+	left: 238px;
+	top: 170px;
 }
 
 .modal {
