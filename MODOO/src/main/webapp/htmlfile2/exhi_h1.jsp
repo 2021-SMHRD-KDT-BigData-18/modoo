@@ -18,80 +18,80 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
 }
 
 .btn1 {
-	left: 217px;
-	top: 328px;
+	left: 214px;
+    top: 326px;
 }
 
 .btn2 {
-	left: 244px;
-	top: 359px;
+	left: 242px;
+    top: 356px;
 }
 
 .btn3 {
-	left: 256px;
-	top: 328px;
+	left: 254px;
+    top: 325px;
 }
 
 .btn4 {
-	left: 268px;
-	top: 328px;
+	left: 266px;
+	top: 325px;
 }
 
 .btn5 {
-	left: 290px;
-	top: 328px;
+	left: 287px;
+	top: 325px;
 }
 
 .btn6 {
-	left: 355px;
-	top: 287px;
+	left: 353px;
+	top: 286px;
 }
 
 .btn7 {
-	left: 355px;
-	top: 269px;
+	left: 353px;
+	top: 268px;
 }
 
 .btn8 {
-	left: 356px;
-	top: 239px;
+	left: 353px;
+	top: 237px;
 }
 
 .btn9 {
-	left: 356px;
-	top: 193px;
+	left: 353px;
+	top: 191px;
 }
 
 .btn10 {
-	left: 362px;
-	top: 170px;
+	left: 359px;
+	top: 168px;
 }
 
 .btn11 {
-	left: 382px;
-	top: 164px;
+	left: 380px;
+	top: 163px;
 }
 
 .btn12 {
-	left: 400px;
-	top: 164px;
+	left: 397px;
+	top: 163px;
 }
 
 .btn13 {
-	left: 498px;
-	top: 165px;
+	left: 497px;
+	top: 163px;
 }
 
 .btn14 {
-	left: 582px;
-	top: 117px;
+	left: 580px;
+	top: 115px;
 }
 
 .modal {

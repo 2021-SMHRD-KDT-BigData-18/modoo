@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <style>
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
@@ -25,44 +25,44 @@ button {
 
 .exhi7_1 {
 	/* 학동역 */
-	left: 479px;
-	top: 306px;
+	left: 477px;
+	top: 303px;
 }
 
 .exhi7_2 {
 	/* 어린이대공원역 */
-	left: 542px;
-	top: 243px;
+	left: 540px;
+	top: 240px;
+}
+
+.exhi7_3 {
+	/* 태릉입구역 */
+	left: 617px;
+	top: 133px;
 }
 
 .exhi7_4 {
-	/* 태릉입구역 */
-	left: 619px;
-	top: 136px;
+	/* 남성역 */
+	left: 384px;
+    top: 357.5px;
 }
 
 .exhi7_5 {
-	/* 남성역 */
-	left: 388px;
-	top: 359.5px;
+	/* 고속터미널역 */
+	left: 439px;
+	top: 339.5px;
 }
 
 .exhi7_6 {
-	/* 고속터미널역 */
-	left: 442px;
-	top: 340.5px;
+	/* 총신대입구(이수)역 */
+	left: 397.5px;
+    top: 357.5px;
 }
 
 .exhi7_7 {
-	/* 총신대입구(이수)역 */
-	left: 400.5px;
-	top: 359.5px;
-}
-
-.exhi7_8 {
 	/* 가산디지털단지역 */
-	left: 244.5px;
-	top: 359.5px;
+	left: 241.5px;
+    top: 356.5px;
 }
 
 .modal {
@@ -96,20 +96,20 @@ button {
 </head>
 <body>
 	<div id="exhi_h7">
-		<button class="exhi7_1"></button>
-		<button class="exhi7_2"></button>
-		<button class="exhi7_4"></button>
-		<button class="exhi7_5"></button>
-		<button class="exhi7_6"></button>
-		<button class="exhi7_7"></button>
-		<button class="exhi7_8"></button>
+	<button class="exhi7_1"></button>
+	<button class="exhi7_2"></button>
+	<button class="exhi7_3"></button>
+	<button class="exhi7_4"></button>
+	<button class="exhi7_5"></button>
+	<button class="exhi7_6"></button>
+	<button class="exhi7_7"></button>
 
-		<div class="modal">
-			<div class="modal_content" title="클릭">
-				ㅇㅅㅇ <br> ㅇㅁㅇ
-			</div>
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
 		</div>
 	</div>
+</div>
 
 	<script>
 		$(function() {

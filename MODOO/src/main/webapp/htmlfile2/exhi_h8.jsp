@@ -17,20 +17,20 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
 }
 
 .exhi_h8_1 {
-	left: 604px;
-	top: 402px;
+	left: 601px;
+	top: 400px;
 }
 
 .exhi_h8_2 {
-	left: 604px;
-	top: 417px;
+	left: 601px;
+	top: 416px;
 }
 
 .modal {
@@ -64,16 +64,16 @@ button {
 </head>
 <body>
 	<div id="exhi_h8">
-		<button class="exhi_h8_1"></button>
-		<!-- 문정 -->
-		<button class="exhi_h8_2"></button>
-		<!-- 장지 -->
-		<div class="modal">
-			<div class="modal_content" title="클릭">
-				ㅇㅅㅇ <br> ㅇㅁㅇ
-			</div>
+	<button class="exhi_h8_1"></button>
+	<!-- 문정 -->
+	<button class="exhi_h8_2"></button>
+	<!-- 장지 -->
+	<div class="modal">
+		<div class="modal_content" title="클릭">
+			ㅇㅅㅇ <br> ㅇㅁㅇ
 		</div>
 	</div>
+</div>
 	<script>
 		$(function() {
 

@@ -35,61 +35,61 @@ button {
     top: 241px;
 }
 
-.cul7_6 {
+.cul7_3 {
 	/* 고속터미널역 */
 	left: 439px;
 	top: 340px;
 }
 
-.cul7_7 {
+.cul7_4 {
 	/* 총신대입구(이수)역 */
 	left: 397px;
 	top: 357px;
 }
 
-.cul7_9 {
+.cul7_5 {
 	/* 내방역 */
 	left: 423px;
 	top: 354px;
 }
 
-.cul7_10 {
+.cul7_6 {
 	/* 용마산역 */
 	left: 579px;
 	top: 201px;
 }
 
-.cul7_11 {
+.cul7_7 {
 	/* 남구로역 */
 	left: 253px;
 	top: 356px;
 }
 
-.cul7_12 {
+.cul7_8 {
 	/* 뚝섬유원지역 */
 	left: 509px;
 	top: 269px;
 }
 
-.cul7_13 {
+.cul7_9 {
 	/* 노원역 */
 	left: 616px;
 	top: 101px;
 }
 
-.cul7_14 {
+.cul7_10 {
 	/* 건대입구역 */
 	left: 522px;
 	top: 257px;
 }
 
-.cul7_15 {
+.cul7_11 {
 	/* 대림역 */
 	left: 266px;
 	top: 356px;
 }
 
-.cul7_16 {
+.cul7_12 {
 	/* 도봉산역 */
 	left: 561px;
 	top: 46px;
@@ -127,16 +127,16 @@ button {
 	<div id="cul_h7">
 		<button class="cul7_1"></button>
 		<button class="cul7_2"></button>
+		<button class="cul7_3"></button>
+		<button class="cul7_4"></button>
+		<button class="cul7_5"></button>
 		<button class="cul7_6"></button>
 		<button class="cul7_7"></button>
+		<button class="cul7_8"></button>
 		<button class="cul7_9"></button>
 		<button class="cul7_10"></button>
 		<button class="cul7_11"></button>
 		<button class="cul7_12"></button>
-		<button class="cul7_13"></button>
-		<button class="cul7_14"></button>
-		<button class="cul7_15"></button>
-		<button class="cul7_16"></button>
 
 		<div class="modal">
 			<div class="modal_content" title="클릭">
