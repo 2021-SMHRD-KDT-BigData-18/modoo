@@ -41,17 +41,17 @@ button {
 
 .btn4 {
 	left: 286px;
-    top: 326px;
+	top: 326px;
 }
 
 .btn5 {
 	left: 353px;
-    top: 285px;
+	top: 285px;
 }
 
 .btn6 {
-	left: 356px;
-	top: 239px;
+	left: 353px;
+	top: 236px;
 }
 
 .btn7 {
