@@ -18,50 +18,50 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(44,158,222);
 	border-radius: 50%;
 }
 
 .mus4_1 {
-	left: 417px;
-	top: 142px;
+	left: 414px;
+    top: 139px;
 }
 
 .mus4_2 {
-	left: 437px;
-	top: 105px;
+	left: 435px;
+	top: 102px;
 }
 
 .mus4_3 {
-	left: 417px;
-	top: 122px;
+	left: 414px;
+	top: 120px;
 }
 
 .mus4_4 {
-	left: 560px;
-	top: 105px;
+	left: 557px;
+	top: 102px;
 }
 
 .mus4_5 {
-	left: 401px;
-	top: 301px;
+	left: 398px;
+    top: 295px;
 }
 
 .mus4_6 {
-	left: 382px;
-	top: 220px;
+	left: 378px;
+    top: 217px;
 }
 
 .mus4_7 {
-	left: 385px;
-	top: 259px;
+	left: 382px;
+    top: 255px;
 }
 
 .mus4_8 {
-	left: 368px;
-	top: 256px;
+	left: 364px;
+    top: 253px;
 }
 
 .modal {

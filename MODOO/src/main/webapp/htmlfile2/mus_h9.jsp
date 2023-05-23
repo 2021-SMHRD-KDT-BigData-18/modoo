@@ -17,30 +17,30 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(188,156,72);
 	border-radius: 50%;
 }
 
 .btn1 {
-	left: 199px;
-	top: 216px;
+	left: 196px;
+	top: 214px;
 }
 
 .btn2 {
-	left: 301px;
-	top: 283px;
+	left: 298px;
+	top: 280px;
 }
 
 .btn3 {
-	left: 335px;
-	top: 300px;
+	left: 332px;
+	top: 297px;
 }
 
 .btn4 {
-	left: 627px;
-	top: 340px;
+	left: 624px;
+	top: 338px;
 }
 
 .modal {

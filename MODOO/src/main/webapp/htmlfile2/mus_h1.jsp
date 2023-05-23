@@ -18,40 +18,40 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(38,60,150);
 	border-radius: 50%;
 }
 
 .btn1 {
-	left: 196px;
-	top: 334px;
+	left: 193px;
+    top: 332px;
 }
 
 .btn2 {
-	left: 356px;
-	top: 239px;
+	left: 353px;
+    top: 236px;
 }
 
 .btn3 {
-	left: 356px;
-	top: 192px;
+	left: 353px;
+    top: 191px;
 }
 
 .btn4 {
-	left: 362px;
-	top: 170px;
+	left: 359px;
+    top: 168px;
 }
 
 .btn5 {
-	left: 382px;
-	top: 164px;
+	left: 381px;
+    top: 162px;
 }
 
 .btn6 {
-	left: 499px;
-	top: 164px;
+	left: 495px;
+    top: 162px;
 }
 
 .modal {

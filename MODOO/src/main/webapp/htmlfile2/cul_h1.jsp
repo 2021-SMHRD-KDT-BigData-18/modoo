@@ -20,83 +20,83 @@
 button {
 	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(38,60,150);
 	border-radius: 50%;
 }
 
 .btn1 {
-	left: 245px;
-	top: 401px;
+	left: 242px;
+    top: 400px;
 }
 
 .btn2 {
-	left: 195px;
-	top: 335px;
+	left: 193px;
+    top: 334px;
 }
 
 .btn3 {
-	left: 268px;
-	top: 328px;
+	left: 266px;
+    top: 327px;
 }
 
 .btn4 {
-	left: 290px;
-	top: 328px;
+	left: 288px;
+    top: 327px;
 }
 
 .btn5 {
-	left: 357px;
+	left: 353px;
 	top: 286px;
 }
 
 .btn6 {
-	left: 356px;
-	top: 239px;
+	left: 353px;
+	top: 237px;
 }
 
 .btn7 {
-	left: 356px;
-	top: 193px;
+	left: 353px;
+	top: 191px;
 }
 
 .btn8 {
-	left: 362px;
-	top: 175px;
+	left: 360px;
+	top: 167px;
 }
 
 .btn9 {
-	left: 382px;
-	top: 166px;
+	left: 380px;
+	top: 163px;
 }
 
 .btn10 {
-	left: 400px;
-	top: 166px;
+	left: 397px;
+	top: 163px;
 }
 
 .btn11 {
-	left: 417px;
-	top: 165px;
+	left: 414px;
+	top: 163px;
 }
 
 .btn12 {
-	left: 444px;
-	top: 165px;
+	left: 441px;
+	top: 163px;
 }
 
 .btn13 {
-	left: 583px;
-	top: 126px;
+	left: 580px;
+	top: 124px;
 }
 
 .btn14 {
-	left: 583px;
-	top: 104px;
+	left: 580px;
+	top: 102px;
 }
 
 .btn15 {
-	left: 564px;
-	top: 49px;
+	left: 561px;
+	top: 45px;
 }
 
 .modal_content {
@@ -256,6 +256,7 @@ button {
 	display: none;
 	z-index: 999;
 }
+
 .modal13 {
 	position: absolute;
 	width: 100%;
@@ -266,6 +267,7 @@ button {
 	display: none;
 	z-index: 999;
 }
+
 .modal14 {
 	position: absolute;
 	width: 100%;
@@ -276,6 +278,7 @@ button {
 	display: none;
 	z-index: 999;
 }
+
 .modal15 {
 	position: absolute;
 	width: 100%;
@@ -406,6 +409,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
+
 #cul_h1_btn13 {
 	position: absolute;
 	top: 5%;
@@ -415,6 +419,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
+
 #cul_h1_btn14 {
 	position: absolute;
 	top: 5%;
@@ -424,6 +429,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
+
 #cul_h1_btn15 {
 	position: absolute;
 	top: 5%;

@@ -17,20 +17,20 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
-	background-color: rgb(52, 167, 234);
+	background-color: rgb(229,30,110);
 	border-radius: 50%;
 }
 
 .mus_h8_1 {
-	left: 534px;
-	top: 321px;
+	left: 531px;
+	top: 318px;
 }
 
 .mus_h8_2 {
-	left: 599px;
-	top: 359px;
+	left: 595px;
+	top: 356px;
 }
 
 .modal {
