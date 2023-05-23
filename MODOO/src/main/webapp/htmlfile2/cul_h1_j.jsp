@@ -25,78 +25,79 @@ button {
 }
 
 .btn1 {
-	left: 245px;
-	top: 401px;
+	left: 241px;
+	top: 397px;
 }
 
+}
 .btn2 {
-	left: 195px;
-	top: 335px;
+	left: 193px;
+	top: 331px;
 }
 
 .btn3 {
-	left: 268px;
-	top: 328px;
+	left: 266px;
+	top: 326px;
 }
 
 .btn4 {
-	left: 290px;
-	top: 328px;
+	left: 286px;
+	top: 326px;
 }
 
 .btn5 {
-	left: 357px;
-	top: 286px;
+	left: 353px;
+	top: 285px;
 }
 
 .btn6 {
-	left: 356px;
-	top: 239px;
+	left: 353px;
+	top: 236px;
 }
 
 .btn7 {
-	left: 356px;
-	top: 193px;
+	left: 353px;
+	top: 191px;
 }
 
 .btn8 {
-	left: 362px;
-	top: 175px;
+	left: 359px;
+	top: 168px;
 }
 
 .btn9 {
-	left: 382px;
-	top: 166px;
+	left: 380px;
+	top: 162px;
 }
 
 .btn10 {
-	left: 400px;
-	top: 166px;
+	left: 396px;
+	top: 162px;
 }
 
 .btn11 {
-	left: 417px;
-	top: 165px;
+	left: 413px;
+	top: 162px;
 }
 
 .btn12 {
-	left: 444px;
-	top: 165px;
+	left: 441px;
+	top: 162px;
 }
 
 .btn13 {
-	left: 583px;
-	top: 126px;
+	left: 579px;
+	top: 123px;
 }
 
 .btn14 {
-	left: 583px;
-	top: 104px;
+	left: 579px;
+	top: 100px;
 }
 
 .btn15 {
-	left: 564px;
-	top: 49px;
+	left: 560px;
+	top: 46px;
 }
 
 .modal {
@@ -145,7 +146,6 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
 </style>
 </head>
 
