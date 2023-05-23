@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 #exhi_h6 {
 	height: 600px;
@@ -18,27 +25,27 @@ button {
 
 .exhi6_1 {
 	left: 617px;
-    top: 133px;
+	top: 133px;
 }
 
 .exhi6_2 {
 	left: 496px;
-    top: 133px;
+	top: 133px;
 }
 
 .exhi6_3 {
 	left: 424px;
-    top: 256px;
+	top: 256px;
 }
 
 .exhi6_4 {
 	left: 401px;
-    top: 256px;
+	top: 256px;
 }
 
 .exhi6_5 {
 	left: 336px;
-    top: 256px;
+	top: 256px;
 }
 
 .exhi6_6 {
@@ -84,34 +91,38 @@ button {
 	cursor: pointer;
 }
 </style>
+</head>
+<body>
+	<div id="exhi_h6">
+		<button class="exhi6_1" name="태릉입구"></button>
+		<button class="exhi6_2" name="고려대"></button>
+		<button class="exhi6_3" name="한강진"></button>
+		<button class="exhi6_4" name="녹사평"></button>
+		<button class="exhi6_5" name="효창공원앞"></button>
+		<button class="exhi6_6" name="상수"></button>
+		<button class="exhi6_7" name="망원"></button>
+		<button class="exhi6_8" name="디지털미디어시티"></button>
 
-<div id="exhi_h6">
-	<button class="exhi6_1" name="태릉입구"></button>
-	<button class="exhi6_2" name="고려대"></button>
-	<button class="exhi6_3" name="한강진"></button>
-	<button class="exhi6_4" name="녹사평"></button>
-	<button class="exhi6_5" name="효창공원앞"></button>
-	<button class="exhi6_6" name="상수"></button>
-	<button class="exhi6_7" name="망원"></button>
-	<button class="exhi6_8" name="디지털미디어시티"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

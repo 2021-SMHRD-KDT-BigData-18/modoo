@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 button {
 	padding: 4.5px;
@@ -86,8 +93,9 @@ button {
 	cursor: pointer;
 }
 </style>
-
-<div id="exhi_h7">
+</head>
+<body>
+	<div id="exhi_h7">
 	<button class="exhi7_1"></button>
 	<button class="exhi7_2"></button>
 	<button class="exhi7_3"></button>
@@ -103,16 +111,19 @@ button {
 	</div>
 </div>
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

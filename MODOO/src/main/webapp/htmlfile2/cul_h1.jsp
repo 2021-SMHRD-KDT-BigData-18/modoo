@@ -25,28 +25,28 @@ button {
 }
 
 .btn1 {
-	left: 241px;
-	top: 398px;
+	left: 245px;
+	top: 401px;
 }
 
 .btn2 {
-	left: 192px;
-	top: 331px;
+	left: 195px;
+	top: 335px;
 }
 
 .btn3 {
-	left: 265px;
-	top: 326px;
+	left: 268px;
+	top: 328px;
 }
 
 .btn4 {
-	left: 286px;
-    top: 326px;
+	left: 290px;
+	top: 328px;
 }
 
 .btn5 {
-	left: 353px;
-    top: 285px;
+	left: 357px;
+	top: 286px;
 }
 
 .btn6 {
@@ -256,7 +256,6 @@ button {
 	display: none;
 	z-index: 999;
 }
-
 .modal13 {
 	position: absolute;
 	width: 100%;
@@ -267,7 +266,6 @@ button {
 	display: none;
 	z-index: 999;
 }
-
 .modal14 {
 	position: absolute;
 	width: 100%;
@@ -278,7 +276,6 @@ button {
 	display: none;
 	z-index: 999;
 }
-
 .modal15 {
 	position: absolute;
 	width: 100%;
@@ -409,7 +406,6 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
 #cul_h1_btn13 {
 	position: absolute;
 	top: 5%;
@@ -419,7 +415,6 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
 #cul_h1_btn14 {
 	position: absolute;
 	top: 5%;
@@ -429,7 +424,6 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
 #cul_h1_btn15 {
 	position: absolute;
 	top: 5%;

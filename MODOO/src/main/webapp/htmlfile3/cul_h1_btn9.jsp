@@ -54,6 +54,12 @@
 	if (home == null) {
 		home = "";
 	}
+	if (tel == null) {
+		tel = "";
+	}
+	if (pic == null) {
+		pic = "";
+	}
 	%>
 	<div id="container">
 		<p id="name"><%=name%></p>

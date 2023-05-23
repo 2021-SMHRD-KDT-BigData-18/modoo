@@ -1,5 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
-#mus_h8 {
+#cul_h8 {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
@@ -10,20 +17,15 @@
 }
 
 button {
-	padding: 2px;
+	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
-.mus_h8_1 {
-	left: 534px;
-	top: 321px;
-}
-
-.mus_h8_2 {
-	left: 599px;
-	top: 359px;
+.cul_h8_1 {
+	left: 545px;
+	top: 313px;
 }
 
 .modal {
@@ -54,27 +56,31 @@ button {
 	cursor: pointer;
 }
 </style>
-<div id="mus_h8">
-	<button class="mus_h8_1"></button>
-	<!-- 몽촌토성 -->
-	<button class="mus_h8_2"></button>
-	<!-- 송파 -->
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+</head>
+<body>
+	<div id="cul_h8">
+		<button class="cul_h8_1"></button>
+		<!-- 강동구청 -->
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
-<script>
-	$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+	<script>
+		$(function() {
+
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

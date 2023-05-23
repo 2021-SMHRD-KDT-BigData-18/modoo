@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
 <style>
 #exhi_h1 {
@@ -116,41 +123,45 @@ button {
 }
 </style>
 
+</head>
+<body>
 
+	<div id="exhi_h1">
+		<button class="btn1" name="개봉역"></button>
+		<button class="btn2" name="가산디지털단지역"></button>
+		<button class="btn3" name="구로역"></button>
+		<button class="btn4" name="신도림역"></button>
+		<button class="btn5" name="영등포역"></button>
+		<button class="btn6" name="용산역"></button>
+		<button class="btn7" name="남영역"></button>
+		<button class="btn8" name="서울역"></button>
+		<button class="btn9" name="시청역"></button>
+		<button class="btn10" name="종각역"></button>
+		<button class="btn11" name="종로3가역"></button>
+		<button class="btn12" name="종로5가역"></button>
+		<button class="btn13" name="제기동역"></button>
+		<button class="btn14" name="월계역"></button>
 
-<div id="exhi_h1">
-	<button class="btn1" name="개봉역"></button>
-	<button class="btn2" name="가산디지털단지역"></button>
-	<button class="btn3" name="구로역"></button>
-	<button class="btn4" name="신도림역"></button>
-	<button class="btn5" name="영등포역"></button>
-	<button class="btn6" name="용산역"></button>
-	<button class="btn7" name="남영역"></button>
-	<button class="btn8" name="서울역"></button>
-	<button class="btn9" name="시청역"></button>
-	<button class="btn10" name="종각역"></button>
-	<button class="btn11" name="종로3가역"></button>
-	<button class="btn12" name="종로5가역"></button>
-	<button class="btn13" name="제기동역"></button>
-	<button class="btn14" name="월계역"></button>
-
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
 	</div>
-</div>
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 #exhi_h4 {
 	height: 600px;
@@ -84,7 +91,7 @@ button {
 	cursor: pointer;
 }
 </style>
-
+</head>
 <div id="exhi_h4">
 	<button class="exhi4_1" name="혜화"></button>
 	<button class="exhi4_2" name="성신여대입구"></button>
@@ -105,16 +112,19 @@ button {
 </div>
 
 
-<script>
-	$(function() {
+	<script>
+		$(function() {
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>
