@@ -125,7 +125,7 @@ button {
 	</div>
 	<script>
 		$(function() {
-			$(".mus8_1").click(function() {
+			$(".mus_h8_1").click(function() {
 				$(".modal1").fadeIn();
 			});
 			$(".modal_close").click(function() {
@@ -133,7 +133,7 @@ button {
 			});
 		});
 		$(function() {
-			$(".mus8_2").click(function() {
+			$(".mus_h8_2").click(function() {
 				$(".modal2").fadeIn();
 			});
 			$(".modal_close").click(function() {

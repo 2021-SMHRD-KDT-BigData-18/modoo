@@ -195,7 +195,7 @@ button {
 
 	<script>
 		$(function() {
-			$(".mus9_1").click(function() {
+			$(".btn1").click(function() {
 				$(".modal1").fadeIn();
 			});
 			$(".modal_close").click(function() {
@@ -203,7 +203,7 @@ button {
 			});
 		});
 		$(function() {
-			$(".mus9_2").click(function() {
+			$(".btn2").click(function() {
 				$(".modal2").fadeIn();
 			});
 			$(".modal_close").click(function() {
@@ -211,7 +211,7 @@ button {
 			});
 		});
 		$(function() {
-			$(".mus9_3").click(function() {
+			$(".btn3").click(function() {
 				$(".modal3").fadeIn();
 			});
 			$(".modal_close").click(function() {
@@ -219,7 +219,7 @@ button {
 			});
 		});
 		$(function() {
-			$(".mus9_4").click(function() {
+			$(".btn4").click(function() {
 				$(".modal4").fadeIn();
 			});
 			$(".modal_close").click(function() {
