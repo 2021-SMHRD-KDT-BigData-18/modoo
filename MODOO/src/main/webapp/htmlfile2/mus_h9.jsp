@@ -1,9 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
-#exhi_h8 {
+#mus_h9 {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
-	background-image: url("/img/8호선.jpg");
+	background-image: url("/img/9호선.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -16,14 +23,24 @@ button {
 	border-radius: 50%;
 }
 
-.exhi_h8_1 {
-	left: 604px;
-	top: 402px;
+.btn1 {
+	left: 199px;
+	top: 216px;
 }
 
-.exhi_h8_2 {
-	left: 604px;
-	top: 417px;
+.btn2 {
+	left: 301px;
+	top: 283px;
+}
+
+.btn3 {
+	left: 335px;
+	top: 300px;
+}
+
+.btn4 {
+	left: 627px;
+	top: 340px;
 }
 
 .modal {
@@ -56,17 +73,21 @@ button {
 </style>
 </head>
 <body>
-	<div id="exhi_h8">
-		<button class="exhi_h8_1"></button>
-		<!-- 문정 -->
-		<button class="exhi_h8_2"></button>
-		<!-- 장지 -->
+
+
+	<div id="mus_h9">
+		<button class="btn1" name="가양역"></button>
+		<button class="btn2" name="국회의사당역"></button>
+		<button class="btn3" name="샛강역"></button>
+		<button class="btn4" name="한성백제역"></button>
 		<div class="modal">
 			<div class="modal_content" title="클릭">
 				ㅇㅅㅇ <br> ㅇㅁㅇ
 			</div>
 		</div>
+
 	</div>
+
 	<script>
 		$(function() {
 
@@ -80,3 +101,7 @@ button {
 
 		});
 	</script>
+
+
+</body>
+</html>

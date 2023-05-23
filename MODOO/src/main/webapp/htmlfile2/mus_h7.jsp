@@ -1,12 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
 button {
-	padding: 4.5px;
+	font-size: 0px;
+	padding: 2px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
 	border-radius: 50%;
 }
 
-#cul_h7 {
+#mus_h7 {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
@@ -16,76 +24,28 @@ button {
 	background-position: center;
 }
 
-.cul7_1 {
+.mus7_1 {
 	/* 학동역 */
 	left: 479px;
 	top: 306px;
 }
 
-.cul7_2 {
+.mus7_2 {
 	/* 어린이대공원역 */
 	left: 542px;
 	top: 243px;
 }
 
-.cul7_6 {
-	/* 고속터미널역 */
-	left: 442px;
-	top: 340.5px;
-}
-
-.cul7_7 {
-	/* 총신대입구(이수)역 */
-	left: 400.5px;
+.mus7_3 {
+	/* 숭실대역 */
+	left: 374.5px;
 	top: 359.5px;
 }
 
-.cul7_9 {
-	/* 내방역 */
-	left: 426px;
-	top: 357.5px;
-}
-
-.cul7_10 {
-	/* 용마산역 */
-	left: 582px;
-	top: 203px;
-}
-
-.cul7_11 {
-	/* 남구로역 */
-	left: 256.5px;
-	top: 359.5px;
-}
-
-.cul7_12 {
-	/* 뚝섬유원지역 */
-	left: 513px;
-	top: 272px
-}
-
-.cul7_13 {
-	/* 노원역 */
+.mus7_4 {
+	/* 태릉입구역 */
 	left: 619px;
-	top: 103px;
-}
-
-.cul7_14 {
-	/* 건대입구역 */
-	left: 526px;
-	top: 259px
-}
-
-.cul7_15 {
-	/* 대림역 */
-	left: 267.5px;
-	top: 359.5px;
-}
-
-.cul7_16 {
-	/* 도봉산역 */
-	left: 565px;
-	top: 48.5px;
+	top: 136px;
 }
 
 .modal {
@@ -118,27 +78,19 @@ button {
 </style>
 </head>
 <body>
-	<div id="cul_h7">
-		<button class="cul7_1"></button>
-		<button class="cul7_2"></button>
-		<button class="cul7_6"></button>
-		<button class="cul7_7"></button>
-		<button class="cul7_9"></button>
-		<button class="cul7_10"></button>
-		<button class="cul7_11"></button>
-		<button class="cul7_12"></button>
-		<button class="cul7_13"></button>
-		<button class="cul7_14"></button>
-		<button class="cul7_15"></button>
-		<button class="cul7_16"></button>
+	<div id="mus_h7">
+		<button class="mus7_1"></button>
+		<button class="mus7_2"></button>
+		<button class="mus7_3"></button>
+		<button class="mus7_4"></button>
 
 		<div class="modal">
 			<div class="modal_content" title="클릭">
 				ㅇㅅㅇ <br> ㅇㅁㅇ
 			</div>
 		</div>
-	</div>
 
+	</div>
 	<script>
 		$(function() {
 
@@ -152,3 +104,6 @@ button {
 
 		});
 	</script>
+
+</body>
+</html>

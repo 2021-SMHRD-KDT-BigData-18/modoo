@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
 <style>
 #cul_h9 {
@@ -14,7 +21,7 @@ button {
 	padding: 4.5px;
 	position: absolute;
 	background-color: rgb(52, 167, 234);
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .btn1 {
@@ -89,35 +96,38 @@ button {
 </head>
 <body>
 
-<div id="cul_h9">
-	<button class="btn1" name="마곡나루역"></button>
-	<button class="btn2" name="등촌역"></button>
-	<button class="btn3" name="샛강역"></button>
-	<button class="btn4" name="노들역"></button>
-	<button class="btn5" name="구반포역"></button>
-	<button class="btn6" name="선정릉역"></button>
-	<button class="btn7" name="송파나루역"></button>
-	<button class="btn8" name="한성백제역"></button>
+	<div id="cul_h9">
+		<button class="btn1" name="마곡나루역"></button>
+		<button class="btn2" name="등촌역"></button>
+		<button class="btn3" name="샛강역"></button>
+		<button class="btn4" name="노들역"></button>
+		<button class="btn5" name="구반포역"></button>
+		<button class="btn6" name="선정릉역"></button>
+		<button class="btn7" name="송파나루역"></button>
+		<button class="btn8" name="한성백제역"></button>
 
 
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
 		</div>
+
 	</div>
 
-</div>
+	<script>
+		$(function() {
 
-<script>
-	$(function() {
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>

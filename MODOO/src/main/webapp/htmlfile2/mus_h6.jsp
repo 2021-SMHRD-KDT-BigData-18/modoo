@@ -1,9 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 <style>
-#exhi_h8 {
+#mus_h6 {
 	height: 600px;
 	width: 800px;
 	overflow: hidden;
-	background-image: url("/img/8호선.jpg");
+	background-image: url("/img/6호선.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -16,14 +23,34 @@ button {
 	border-radius: 50%;
 }
 
-.exhi_h8_1 {
-	left: 604px;
-	top: 402px;
+.mus6_1 {
+	left: 620px;
+	top: 135px;
 }
 
-.exhi_h8_2 {
-	left: 604px;
-	top: 417px;
+.mus6_2 {
+	left: 517px;
+	top: 135px;
+}
+
+.mus6_3 {
+	left: 426px;
+	top: 259px;
+}
+
+.mus6_4 {
+	left: 338px;
+	top: 259px;
+}
+
+.mus6_5 {
+	left: 285px;
+	top: 259px;
+}
+
+.mus6_6 {
+	left: 253px;
+	top: 78px;
 }
 
 .modal {
@@ -56,11 +83,14 @@ button {
 </style>
 </head>
 <body>
-	<div id="exhi_h8">
-		<button class="exhi_h8_1"></button>
-		<!-- 문정 -->
-		<button class="exhi_h8_2"></button>
-		<!-- 장지 -->
+	<div id="mus_h6">
+		<button class="mus6_1" name="태릉입구"></button>
+		<button class="mus6_2" name="월곡"></button>
+		<button class="mus6_3" name="한강진"></button>
+		<button class="mus6_4" name="효창공원앞"></button>
+		<button class="mus6_5" name="상수"></button>
+		<button class="mus6_6" name="독바위"></button>
+
 		<div class="modal">
 			<div class="modal_content" title="클릭">
 				ㅇㅅㅇ <br> ㅇㅁㅇ
@@ -80,3 +110,6 @@ button {
 
 		});
 	</script>
+
+</body>
+</html>

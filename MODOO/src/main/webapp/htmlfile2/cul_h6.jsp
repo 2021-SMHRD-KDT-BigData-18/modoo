@@ -1,3 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 
 <style>
 #cul_h6 {
@@ -85,35 +92,40 @@ button {
 	cursor: pointer;
 }
 </style>
-
-<div id="cul_h6">
-	<button class="cul6_1" name="돌곶이"></button>
-	<button class="cul6_2" name="상월곡"></button>
-	<button class="cul6_3" name="고려대"></button>
-	<button class="cul6_4" name="한강진"></button>
-	<button class="cul6_5" name="녹사평"></button>
-	<button class="cul6_6" name="상수"></button>
-	<button class="cul6_7" name="망원"></button>
-	<button class="cul6_8" name="디지털미디어시티"></button>
-	<div class="modal">
-		<div class="modal_content" title="클릭">
-			ㅇㅅㅇ <br> ㅇㅁㅇ
-		</div>
-	</div>
-
-</div>
 </head>
 <body>
-<script>
-	$(function() {
+	<div id="cul_h6">
+		<button class="cul6_1" name="돌곶이"></button>
+		<button class="cul6_2" name="상월곡"></button>
+		<button class="cul6_3" name="고려대"></button>
+		<button class="cul6_4" name="한강진"></button>
+		<button class="cul6_5" name="녹사평"></button>
+		<button class="cul6_6" name="상수"></button>
+		<button class="cul6_7" name="망원"></button>
+		<button class="cul6_8" name="디지털미디어시티"></button>
+		<div class="modal">
+			<div class="modal_content" title="클릭">
+				ㅇㅅㅇ <br> ㅇㅁㅇ
+			</div>
+		</div>
 
-		$("button").click(function() {
-			$(".modal").fadeIn();
+	</div>
+
+	<script>
+		$(function() {
+
+			$("button").click(function() {
+				$(".modal").fadeIn();
+			});
+
+			$(".modal_content").click(function() {
+				$(".modal").fadeOut();
+			});
+
 		});
+	</script>
+</head>
+<body>
 
-		$(".modal_content").click(function() {
-			$(".modal").fadeOut();
-		});
-
-	});
-</script>
+</body>
+</html>
