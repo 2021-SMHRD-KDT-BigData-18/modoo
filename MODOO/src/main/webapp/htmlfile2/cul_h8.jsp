@@ -91,7 +91,7 @@ button {
 
 	<script>
 		$(function() {
-			$(".cul_h8").click(function() {
+			$(".cul_h8_1").click(function() {
 				$(".modal1").fadeIn();
 			});
 			$(".modal_close").click(function() {

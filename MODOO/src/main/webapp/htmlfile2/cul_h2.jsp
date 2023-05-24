@@ -111,7 +111,7 @@ button {
 	z-index: 999;
 }
 
-.modal3 {
+/* .modal3 {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -120,7 +120,7 @@ button {
 	left: 0;
 	display: none;
 	z-index: 999;
-}
+} */
 
 .modal4 {
 	position: absolute;
@@ -144,7 +144,7 @@ button {
 	z-index: 999;
 }
 
-.modal6 {
+/* .modal6 {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -153,7 +153,7 @@ button {
 	left: 0;
 	display: none;
 	z-index: 999;
-}
+} */
 
 .modal7 {
 	position: absolute;
@@ -197,7 +197,7 @@ button {
 	cursor: pointer;
 }
 
-#cul_h2_btn3 {
+/* #cul_h2_btn3 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -205,7 +205,7 @@ button {
 	right: 40%;
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 
 #cul_h2_btn4 {
 	position: absolute;
@@ -227,7 +227,7 @@ button {
 	cursor: pointer;
 }
 
-#cul_h2_btn6 {
+/* #cul_h2_btn6 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -235,7 +235,7 @@ button {
 	right: 40%;
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 
 #cul_h2_btn7 {
 	position: absolute;
@@ -264,13 +264,13 @@ button {
 		<!-- 합정 -->
 		<button class="cul_h2_2"></button>
 		<!-- 신촌 -->
-		<button class="cul_h2_3"></button>
-		<!-- 충정로 -->
+		<!-- <button class="cul_h2_3"></button>
+		충정로 -->
 		<button class="cul_h2_4"></button>
 		<!-- 을지로3가 -->
 		<button class="cul_h2_5"></button>
 		<!-- 성수 -->
-		<button class="cul_h2_6"></button>
+		<!-- <button class="cul_h2_6"></button> -->
 		<!-- 용두 -->
 		<button class="cul_h2_7"></button>
 		<!-- 잠실 -->
@@ -290,13 +290,13 @@ button {
 				<button class="modal_close">닫기</button>
 			</div>
 		</div>
-		<div class="modal3">
+		<!-- <div class="modal3">
 			<div class="modal_content" title="클릭">
 				<input type="button" id="cul_h2_btn3" value="정보 보기" />
 				<div id="btn_open3"></div>
 				<button class="modal_close">닫기</button>
 			</div>
-		</div>
+		</div> -->
 		<div class="modal4">
 			<div class="modal_content" title="클릭">
 				<input type="button" id="cul_h2_btn4" value="정보 보기" />
@@ -311,13 +311,13 @@ button {
 				<button class="modal_close">닫기</button>
 			</div>
 		</div>
-		<div class="modal6">
+		<!-- <div class="modal6">
 			<div class="modal_content" title="클릭">
 				<input type="button" id="cul_h2_btn6" value="정보 보기" />
 				<div id="btn_open6"></div>
 				<button class="modal_close">닫기</button>
 			</div>
-		</div>
+		</div> -->
 		<div class="modal7">
 			<div class="modal_content" title="클릭">
 				<input type="button" id="cul_h2_btn7" value="정보 보기" />
