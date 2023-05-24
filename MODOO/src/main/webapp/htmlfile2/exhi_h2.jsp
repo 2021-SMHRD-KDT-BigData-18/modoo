@@ -83,10 +83,10 @@ button {
 	top: 233px;
 }
 
-.exhi_h2_13 {
+/* .exhi_h2_13 {
 	left: 522px;
 	top: 282px;
-}
+} */
 
 .exhi_h2_14 {
 	left: 522px;
@@ -648,8 +648,8 @@ button {
 		<!-- 뚝섬 -->
 		<button class="exhi_h2_12"></button>
 		<!-- 성수 -->
-		<button class="exhi_h2_13"></button>
-		<!-- 강변 -->
+		<!-- <button class="exhi_h2_13"></button>
+		강변 -->
 		<button class="exhi_h2_14"></button>
 		<!-- 잠실 -->
 		<button class="exhi_h2_15"></button>

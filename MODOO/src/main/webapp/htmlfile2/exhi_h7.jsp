@@ -53,11 +53,11 @@ button {
 	top: 339.5px;
 }
 
-.exhi7_6 {
+/*  .exhi7_6 {
 	/* 총신대입구(이수)역 */
-	left: 397.5px;
+	/*left: 397.5px;
 	top: 357.5px;
-}
+}  */
 
 .exhi7_7 {
 	/* 가산디지털단지역 */
@@ -218,7 +218,7 @@ button {
 	cursor: pointer;
 }
 
-#exhi_h7_btn6 {
+/* #exhi_h7_btn6 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -226,7 +226,7 @@ button {
 	right: 40%;
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 
 #exhi_h7_btn7 {
 	position: absolute;
@@ -246,7 +246,7 @@ button {
 		<button class="exhi7_3"></button>
 		<button class="exhi7_4"></button>
 		<button class="exhi7_5"></button>
-		<button class="exhi7_6"></button>
+		<!-- <button class="exhi7_6"></button> -->
 		<button class="exhi7_7"></button>
 
 		<div class="modal1">

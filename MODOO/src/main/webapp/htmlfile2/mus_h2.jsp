@@ -417,7 +417,7 @@ button {
 	z-index: 999;
 }
 
-#mus_h2_btn1 {
+/* #mus_h2_btn1 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -436,7 +436,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
+ */
 #mus_h2_btn3 {
 	position: absolute;
 	top: 5%;
@@ -447,7 +447,7 @@ button {
 	cursor: pointer;
 }
 
-#mus_h2_btn4 {
+/* #mus_h2_btn4 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -456,7 +456,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
+ */
 #mus_h2_btn5 {
 	position: absolute;
 	top: 5%;
@@ -467,7 +467,7 @@ button {
 	cursor: pointer;
 }
 
-#mus_h2_btn6 {
+/* #mus_h2_btn6 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -475,7 +475,7 @@ button {
 	right: 40%;
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 
 #mus_h2_btn7 {
 	position: absolute;
@@ -497,7 +497,7 @@ button {
 	cursor: pointer;
 }
 
-#mus_h2_btn9 {
+/* #mus_h2_btn9 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -575,9 +575,9 @@ button {
 	right: 40%;
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 
-#mus_h2btn17 {
+#mus_h2_btn17 {
 	position: absolute;
 	top: 5%;
 	background-color: gray;
@@ -596,7 +596,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 }
-
+/* 
 #mus_h2_btn19 {
 	position: absolute;
 	top: 5%;
@@ -645,57 +645,57 @@ button {
 	right: 40%;
 	border-radius: 10px;
 	cursor: pointer;
-}
+} */
 </style>
 </head>
 <body>
 	<div id="mus_h2">
-		<button class="mus_h2_1"></button>
-		<!-- 양천구청 -->
+		<!-- <button class="mus_h2_1"></button>
+		양천구청
 		<button class="mus_h2_2"></button>
-		<!-- 영등포구청 -->
+		영등포구청 -->
 		<button class="mus_h2_3"></button>
 		<!-- 합정 -->
-		<button class="mus_h2_4"></button>
-		<!-- 홍대입구 -->
+		<!-- <button class="mus_h2_4"></button>
+		홍대입구 -->
 		<button class="mus_h2_5"></button>
 		<!-- 신촌 -->
-		<button class="mus_h2_6"></button>
-		<!-- 아현 -->
+		<!-- <button class="mus_h2_6"></button>
+		아현 -->
 		<button class="mus_h2_7"></button>
 		<!-- 충정로 -->
 		<button class="mus_h2_8"></button>
 		<!-- 을지로3가 -->
-		<button class="mus_h2_9"></button>
-		<!-- 을지로4가 -->
+		<!-- <button class="mus_h2_9"></button>
+		을지로4가
 		<button class="mus_h2_10"></button>
-		<!-- 신당 -->
+		신당
 		<button class="mus_h2_11"></button>
-		<!-- 왕십리 -->
+		왕십리
 		<button class="mus_h2_12"></button>
-		<!-- 한양대 -->
+		한양대
 		<button class="mus_h2_13"></button>
-		<!-- 뚝성 -->
+		뚝성
 		<button class="mus_h2_14"></button>
-		<!-- 건대입구 -->
+		건대입구
 		<button class="mus_h2_15"></button>
-		<!-- 구의 -->
+		구의
 		<button class="mus_h2_16"></button>
-		<!-- 강변 -->
+		강변 -->
 		<button class="mus_h2_17"></button>
 		<!-- 잠실 -->
 		<button class="mus_h2_18"></button>
 		<!-- 삼성 -->
-		<button class="mus_h2_19"></button>
-		<!-- 역삼 -->
+		<!-- <button class="mus_h2_19"></button>
+		역삼
 		<button class="mus_h2_20"></button>
-		<!-- 강남 -->
+		강남
 		<button class="mus_h2_21"></button>
-		<!-- 서초 -->
+		서초
 		<button class="mus_h2_22"></button>
-		<!-- 구로디지털단지 -->
+		구로디지털단지
 		<button class="mus_h2_23"></button>
-		<!-- 대림 -->
+		대림 -->
 		<div class="modal1">
 			<div class="modal_content" title="클릭">
 				<input type="button" id="mus_h2_btn1" value="정보 보기" />

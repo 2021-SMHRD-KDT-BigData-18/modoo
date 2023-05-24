@@ -36,12 +36,12 @@ button {
 	top: 239px;
 }
 
-.mus7_3 {
+/* .mus7_3 {
 	/* 숭실대역 */
-	left: 371.5px;
+	/*left: 371.5px;
 	top: 357.5px;
 }
-
+ */
 .mus7_4 {
 	/* 태릉입구역 */
 	left: 617px;
@@ -163,7 +163,7 @@ button {
 	<div id="mus_h7">
 		<button class="mus7_1"></button>
 		<button class="mus7_2"></button>
-		<button class="mus7_3"></button>
+		<!-- <button class="mus7_3"></button> -->
 		<button class="mus7_4"></button>
 
 		<div class="modal1">
