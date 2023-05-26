@@ -62,17 +62,51 @@
 
 
 
-6. 프로젝트 결과
-  1. 시연영상
+# 6. 프로젝트 결과
+ # 1. 시연영상
   
 
 https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44-a13b-3a1f02eb1831
 
-  2. Team소개
+  # 2. Team소개
 ![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/132041834/329e8c0a-1eb2-4aaf-bb44-dc8cb7492d2f)
 
 
-  3. 카카오톡 채널
+# 👨‍👩‍👦‍👦 팀원 역할
+
+<table>
+  <tr>
+    <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
+    <td align="center"><img src="[https://m.blog.naver.com/pepe1200/221114592173](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1NPd5YNYCH5AyDhNCJMqIFLOM8FZ_frPdg&usqp=CAU)" width="100" height="100"/></td>
+    <td align="center"><img src="https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2" width="100" height="100"/></td>
+    <td align="center"><img src="https://i.pinimg.com/236x/ed/bb/53/edbb53d4f6dd710431c1140551404af9.jpg" width="100" height="100"/></td>
+    <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>팀장 : 박종현 </strong></td>
+    <td align="center"><strong>팀원 : 김홍모</strong></td>
+    <td align="center"><strong>팀원 : 김선제 </strong></td>
+    <td align="center"><strong>팀원 : 박기쁨</strong></td>
+    <td align="center"><strong>팀원 : 송은지</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Team Leader</b></td>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Frontend</b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+  </tr>
+</table>
+        
+        
+  # 3. 카카오톡 채널
   
   https://pf.kakao.com/_xfxnhxgxj
   
