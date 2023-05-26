@@ -37,7 +37,8 @@
 
 2) 목표 서비스 및 기능
 
-![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/2a40a15a-e60e-438f-bfb7-0097a4d559d8)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/132041834/9e7868cc-af73-46fb-ac2b-24501ec5adbe)
+
 
 
 # 2. 시스템구성
@@ -68,7 +69,7 @@
 https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44-a13b-3a1f02eb1831
 
   2. Team소개
-![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/f8ac8611-76ad-423f-97a8-bcd2cdff6741)
+(![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/132041834/b063d575-87be-4bd2-a144-7c9f0348c056)
 
   3. 카카오톡 채널
   
