@@ -152,6 +152,7 @@ https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44
    # PPT
 
 [모두 피피티 230526.pdf](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/files/11572228/230526.pdf)
+[모두 피피티 20230526.pptx](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/files/11572729/20230526.pptx)
 
 
    
