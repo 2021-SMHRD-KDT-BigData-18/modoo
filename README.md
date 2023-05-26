@@ -77,7 +77,7 @@ https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44
 <table>
   <tr>
     <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
-    <td align="center"><img src="[https://m.blog.naver.com/pepe1200/221114592173](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1NPd5YNYCH5AyDhNCJMqIFLOM8FZ_frPdg&usqp=CAU)" width="100" height="100"/></td>
+    <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
     <td align="center"><img src="https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2" width="100" height="100"/></td>
     <td align="center"><img src="https://i.pinimg.com/236x/ed/bb/53/edbb53d4f6dd710431c1140551404af9.jpg" width="100" height="100"/></td>
     <td align="center"><img src="https://pbs.twimg.com/media/B-n6uPYUUAAZSUx.png" width="100" height="100"/></td>
@@ -97,11 +97,11 @@ https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44
     <td align="center"><b>Frontend</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/hyun521" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/hongmoKim" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/KSJ0987" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/parkgibbeum" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/SONGEUN-JI7" target='_blank'>github</a></td>
   </tr>
 </table>
         
