@@ -1,7 +1,5 @@
 # modoo
 
-![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/047541a1-61c4-44ff-b7cd-c371fd50b103)
-
 # project_modoo(모두) (2023/05/10 ~ 05/25 )
 
 
