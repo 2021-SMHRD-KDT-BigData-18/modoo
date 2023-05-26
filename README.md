@@ -34,9 +34,9 @@
 # 1.프로젝트 배경 및 주제
 
 1) 프로젝트 배경  
-서울의 지하철 이용객 수가 늘어나고 문화 시설 이용률도 늘어남에 따라  
+- 서울의 지하철 이용객 수가 늘어나고 문화 시설 이용률도 늘어남에 따라  
 대중 교통과 문화 시설을 연관 지어서 여러 사람들이 다양한 데이터들의 접근이 편하면 좋겠다고 생각해서   
-지하철 역 주변의 문화시설의 정보를 제공하는 대시보드를 기획하게 되었다.
+지하철 역 주변의 문화시설의 정보를 제공하는 대시보드를 기획하게 되었습니다.
 
 2) 목표 서비스 및 기능
 
@@ -49,6 +49,26 @@
 ![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/08f7f001-2b80-4f50-81ea-0a602000d967)
 
 # 3.프로젝트구성
+
+# ⛏ 기술스택
+
+<table>
+    <tr>
+        <th>구분</th>
+        <th>내용</th>
+    </tr>
+    <tr>
+        <td>사용언어</td>
+        <td>
+            <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/>
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/>
+            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
+        </td>
+    </tr>
+ 
+  
+
 # ⚙ 시스템 아키텍처(구조) 예시
 
 ![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/6faa917f-8cec-4ffd-8d0a-2ef8944eb527)
@@ -61,15 +81,22 @@
 
 
 # 4. 화면구성
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/130841823/0ed87c05-ed5b-4545-b940-40f23c739c77)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/130841823/6106fa59-7156-4a53-8306-227a4f6fcf0a)
 
 
 # 5. 프로젝트 결과
+
  # 1. 시연영상
   
 
 https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44-a13b-3a1f02eb1831
 
+
+
+
   # 2. Team소개
+  
 ![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/132041834/329e8c0a-1eb2-4aaf-bb44-dc8cb7492d2f)
 
 
@@ -107,11 +134,26 @@ https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44
 </table>
         
         
+      
+# 🤾‍♂️트러블슈팅
+
+
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/130841823/100391c9-8cbf-4b1d-8359-9c22931fd825)
+
+        
   # 3. 카카오톡 채널
   
   https://pf.kakao.com/_xfxnhxgxj
   
    ![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/5fcd2f36-3b00-4397-99bb-fa4baedaeed8)
    ![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/f9bf02e6-e0f7-453b-8f7b-2ab4e606dbbb)
+   
+   
+   # PPT
+
+[모두 피피티 230526.pdf](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/files/11572228/230526.pdf)
+
+
+   
 
   
