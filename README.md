@@ -69,7 +69,8 @@
 https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44-a13b-3a1f02eb1831
 
   2. Team소개
-(![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/132041834/b063d575-87be-4bd2-a144-7c9f0348c056)
+![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/132041834/329e8c0a-1eb2-4aaf-bb44-dc8cb7492d2f)
+
 
   3. 카카오톡 채널
   
