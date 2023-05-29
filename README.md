@@ -5,6 +5,10 @@
 
 ![image](https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/631be858-6454-4797-8ae6-ff2b18fdf1d6)
 
+## 서비스 소개
+* 서비스명:  MODOO
+* 서비스설명: 서울 지하철역 주변의 문화시설의 정보를 제공하는 대시보드
+<br>
 
 # 📅 프로젝트 기간 | 2023.04.13 ~ 2023.05.26
 
@@ -177,11 +181,18 @@ https://github.com/SONGEUN-JI7/project_modoo/assets/130841823/d9dc9a12-b4d2-4d44
         
       
 # 🤾‍♂️트러블슈팅
+개념: 문제 해결을 위해 문제의 원인을 논리적이고 체계적으로 찾는 일이며 제품이나 프로세스의 운영을 재개
+프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2~5가지 정도)
 
+* 문제1<br>
+ 문제점 설명 및 해결방안
 
 ![image](https://github.com/2021-SMHRD-KDT-BigData-18/modoo/assets/130841823/100391c9-8cbf-4b1d-8359-9c22931fd825)
+<br>
 
-        
+# 문제점 : 크롤링 할 때 iframe이 있는 창 -> 또 다른 iframe 창이 나오는데 , 데이터 수집 불가
+# 해결 방안 : 다시 그 정보창의 iframe 지정해 전환하여 문제점을 해결 하였습니다.
+<br>
   # 3. 카카오톡 채널
   
   https://pf.kakao.com/_xfxnhxgxj
